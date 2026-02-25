@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "treatments": "治疗项目",
+    "hospitals": "医院",
+    "doctors": "医生",
+    "pricing": "价格对比",
+    "reviews": "患者评价",
+    "getQuote": "免费获取报价"
+  },
+  "hero": {
+    "badge": "值得信赖的医疗旅游平台",
+    "title": "在中国享受世界一流的医疗服务，费用仅为西方国家的一小部分",
+    "subtitle": "连接顶级医院和认证医生。我们的服务100%免费——您只需直接向医院支付费用。",
+    "stats": {
+      "patients": "2,000+ 患者",
+      "hospitals": "50+ 医院",
+      "free": "100% 免费"
+    },
+    "cta": "免费获取报价",
+    "ctaSecondary": "浏览治疗项目",
+    "searchTitle": "查找治疗项目",
+    "searchTreatment": "选择治疗类型...",
+    "searchCity": "选择城市...",
+    "searchButton": "搜索"
+  },
+  "trustBar": {
+    "items": "JCI 认证 · TEMOS 认证 · ISO 9001 · 三甲医院 · Stripe 安全支付 · GDPR 合规 · 7×24 支持 · 100% 免费"
+  },
+  "specialties": {
+    "title": "按专科查找治疗项目",
+    "subtitle": "探索中国顶尖医疗专科，节省高达70%的费用",
+    "viewAll": "查看全部专科",
+    "showLess": "收起",
+    "from": "起",
+    "dental": "口腔种植",
+    "eye": "眼科与激光",
+    "oncology": "肿瘤与CAR-T",
+    "tcm": "中医养生",
+    "orthopedic": "骨科与脊柱",
+    "cosmetic": "整形美容",
+    "fertility": "生殖与试管婴儿",
+    "cardiac": "心脏外科",
+    "checkup": "健康体检",
+    "stem_cell": "干细胞治疗",
+    "neurology": "神经科",
+    "bariatric": "减重手术"
+  },
+  "doctors": {
+    "title": "顶级医生推荐",
+    "subtitle": "经过认证的专家，附 ChinaMedScore™ 评分",
+    "yearsExp": "年经验",
+    "treatments": "例治疗",
+    "viewProfile": "查看详情",
+    "viewAll": "查看全部医生",
+    "outstanding": "杰出",
+    "veryGood": "优秀",
+    "good": "良好"
+  },
+  "pricing": {
+    "title": "与西方国家相比节省高达70%",
+    "subtitle": "跨6国治疗费用对比",
+    "treatment": "治疗项目",
+    "disclaimer": "价格为基于平均费用的估算。实际价格可能因医院、医生和个人情况而异。",
+    "dentalImplant": "种植牙",
+    "lasik": "近视激光手术",
+    "kneeReplace": "膝关节置换",
+    "carT": "CAR-T细胞治疗",
+    "ivf": "试管婴儿",
+    "healthCheck": "健康体检"
+  },
+  "reviews": {
+    "title": "患者怎么说",
+    "subtitle": "来自真实患者的认证评价",
+    "verified": "认证患者"
+  },
+  "howItWorks": {
+    "title": "服务流程",
+    "subtitle": "从首次咨询到康复回国——我们全程为您安排",
+    "step1Title": "告诉我们您的需求",
+    "step1Desc": "填写简单表单，描述您的医疗需求和偏好。",
+    "step2Title": "精准匹配",
+    "step2Desc": "我们的医疗协调员为您匹配最佳医院和医生。",
+    "step3Title": "出行与治疗",
+    "step3Desc": "我们安排签证、机票、住宿、翻译——全程服务。",
+    "step4Title": "康复与回访",
+    "step4Desc": "术后跟踪随访，随时联系您的专属协调员。"
+  },
+  "patientManager": {
+    "title": "还有疑虑？和真人聊聊",
+    "subtitle": "我们的医疗协调员会说您的语言，全程为您指引。",
+    "ctaPrimary": "WhatsApp 咨询",
+    "ctaSecondary": "发送消息"
+  },
+  "quoteForm": {
+    "title": "获取免费报价",
+    "subtitle": "告诉我们您的需求，无任何附加条件，100%免费。",
+    "name": "姓名",
+    "namePlaceholder": "您的全名",
+    "email": "邮箱",
+    "emailPlaceholder": "your@email.com",
+    "treatment": "感兴趣的治疗",
+    "treatmentPlaceholder": "选择治疗项目...",
+    "contactMethod": "首选联系方式",
+    "contactHandle": "联系号码",
+    "contactHandlePlaceholder": "您的 WhatsApp 或 Telegram 号码",
+    "description": "描述您的状况",
+    "descriptionPlaceholder": "告诉我们更多关于您的医疗需求（选填）",
+    "submit": "获取免费报价",
+    "submitting": "提交中...",
+    "success": "感谢！我们将在24小时内联系您。",
+    "trustSecure": "您的信息安全且保密",
+    "trustFast": "24小时内回复",
+    "trustFree": "100%免费，无隐藏费用",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "emailOption": "邮箱",
+    "validation": {
+      "nameRequired": "请输入姓名",
+      "emailRequired": "请输入邮箱",
+      "emailInvalid": "请输入有效的邮箱地址",
+      "treatmentRequired": "请选择治疗项目"
+    }
+  },
+  "footer": {
+    "description": "连接国际患者与中国最好的医院和医生。我们的服务100%免费。",
+    "treatments": "治疗项目",
+    "company": "公司信息",
+    "support": "帮助支持",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "careers": "加入我们",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "faq": "常见问题",
+    "guide": "就医指南",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "copyright": "© 2026 MyChinaMed. 保留所有权利。"
+  },
+  "common": {
+    "learnMore": "了解更多",
+    "viewAll": "查看全部",
+    "search": "搜索",
+    "loading": "加载中..."
+  }
+}

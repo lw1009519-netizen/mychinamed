@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "treatments": "Treatments",
+    "hospitals": "Hospitals",
+    "doctors": "Doctors",
+    "pricing": "Pricing",
+    "reviews": "Reviews",
+    "getQuote": "Get Free Quote"
+  },
+  "hero": {
+    "badge": "Trusted Medical Tourism Platform",
+    "title": "World-Class Medical Care in China, at a Fraction of the Cost",
+    "subtitle": "Connect with top-rated hospitals and verified doctors. Our service is 100% free — you pay only the hospital directly.",
+    "stats": {
+      "patients": "2,000+ Patients",
+      "hospitals": "50+ Hospitals",
+      "free": "100% Free"
+    },
+    "cta": "Get Free Quote",
+    "ctaSecondary": "Browse Treatments",
+    "searchTitle": "Find Your Treatment",
+    "searchTreatment": "Select treatment type...",
+    "searchCity": "Select city...",
+    "searchButton": "Search"
+  },
+  "trustBar": {
+    "items": "JCI Accredited · TEMOS Certified · ISO 9001 · Grade III-A Hospitals · Stripe Secure · GDPR Compliant · 24/7 Support · 100% Free"
+  },
+  "specialties": {
+    "title": "Find Treatment by Specialty",
+    "subtitle": "Explore China's top medical specialties with savings up to 70%",
+    "viewAll": "View All Specialties",
+    "showLess": "Show Less",
+    "from": "From",
+    "dental": "Dental & Implants",
+    "eye": "Eye & LASIK",
+    "oncology": "Oncology & CAR-T",
+    "tcm": "Traditional Chinese Med",
+    "orthopedic": "Orthopedic & Spine",
+    "cosmetic": "Cosmetic Surgery",
+    "fertility": "Fertility & IVF",
+    "cardiac": "Cardiac Surgery",
+    "checkup": "Health Screening",
+    "stem_cell": "Stem Cell Therapy",
+    "neurology": "Neurology",
+    "bariatric": "Weight Loss Surgery"
+  },
+  "doctors": {
+    "title": "Top-Rated Doctors",
+    "subtitle": "Verified specialists with ChinaMedScore™ ratings",
+    "yearsExp": "years experience",
+    "treatments": "treatments",
+    "viewProfile": "View Profile",
+    "viewAll": "View All Doctors",
+    "outstanding": "Outstanding",
+    "veryGood": "Very Good",
+    "good": "Good"
+  },
+  "pricing": {
+    "title": "Save Up to 70% Compared to Western Countries",
+    "subtitle": "Compare treatment costs across 6 countries",
+    "treatment": "Treatment",
+    "disclaimer": "Prices are estimates based on average costs. Actual prices may vary depending on hospital, doctor, and individual case.",
+    "dentalImplant": "Dental Implant",
+    "lasik": "LASIK",
+    "kneeReplace": "Knee Replacement",
+    "carT": "CAR-T Therapy",
+    "ivf": "IVF Cycle",
+    "healthCheck": "Health Screening"
+  },
+  "reviews": {
+    "title": "What Our Patients Say",
+    "subtitle": "Verified reviews from real patients",
+    "verified": "Verified Patient"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "From first inquiry to full recovery — we handle everything",
+    "step1Title": "Tell Us What You Need",
+    "step1Desc": "Fill out a simple form describing your medical needs and preferences.",
+    "step2Title": "Get Matched",
+    "step2Desc": "Our medical coordinators match you with the best hospitals and doctors.",
+    "step3Title": "Travel & Treat",
+    "step3Desc": "We arrange visa, flights, accommodation, and translation — full service.",
+    "step4Title": "Recover & Review",
+    "step4Desc": "Post-treatment follow-up with your dedicated coordinator anytime."
+  },
+  "patientManager": {
+    "title": "Still Unsure? Talk to a Real Person",
+    "subtitle": "Our medical coordinators speak your language and guide you every step.",
+    "ctaPrimary": "Chat on WhatsApp",
+    "ctaSecondary": "Send Us a Message"
+  },
+  "quoteForm": {
+    "title": "Get Your Free Quote",
+    "subtitle": "Tell us about your needs. No obligations, 100% free.",
+    "name": "Full Name",
+    "namePlaceholder": "Your full name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "treatment": "Treatment Interest",
+    "treatmentPlaceholder": "Select a treatment...",
+    "contactMethod": "Preferred Contact",
+    "contactHandle": "Contact Number",
+    "contactHandlePlaceholder": "Your WhatsApp or Telegram number",
+    "description": "Describe Your Condition",
+    "descriptionPlaceholder": "Tell us more about your medical needs (optional)",
+    "submit": "Get Free Quote",
+    "submitting": "Submitting...",
+    "success": "Thank you! We will contact you within 24 hours.",
+    "trustSecure": "Your information is secure and confidential",
+    "trustFast": "We respond within 24 hours",
+    "trustFree": "100% free, no hidden fees",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "emailOption": "Email",
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email",
+      "treatmentRequired": "Please select a treatment"
+    }
+  },
+  "footer": {
+    "description": "Connecting international patients with China's best hospitals and doctors. Our service is 100% free.",
+    "treatments": "Treatments",
+    "company": "Company",
+    "support": "Support",
+    "about": "About Us",
+    "contact": "Contact",
+    "careers": "Careers",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "faq": "FAQ",
+    "guide": "Patient Guide",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "copyright": "© 2026 MyChinaMed. All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "search": "Search",
+    "loading": "Loading..."
+  }
+}
