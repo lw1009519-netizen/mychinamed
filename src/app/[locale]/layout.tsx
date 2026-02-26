@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   title: 'MyChinaMed — World-Class Medical Care in China',
   description:
     'Connect with top-rated Chinese hospitals and verified doctors. Save up to 70% on medical treatments. Our service is 100% free.',
+  verification: {
+    google: 'FJr8873feOrgvD0lIJyOPRqWBzGC8rsdrdNFX6IF-gA',
+  },
 }
 
 interface LocaleLayoutProps {
