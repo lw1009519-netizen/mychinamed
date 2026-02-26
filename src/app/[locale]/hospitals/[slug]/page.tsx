@@ -5,18 +5,55 @@ import {
   Building2, Globe, ShieldCheck, Bed, Users,
   MapPin, ExternalLink, ArrowLeft, Check, Plane,
 } from 'lucide-react'
+import { getTranslations } from 'next-intl/server'
 import QuoteForm from '@/components/sections/QuoteForm'
+import type { Metadata } from 'next'
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mychinamed.com'
 
 interface HospitalDetailPageProps {
   params: { locale: string; slug: string }
 }
 
-export async function generateMetadata({ params }: HospitalDetailPageProps) {
+export async function generateMetadata({ params }: HospitalDetailPageProps): Promise<Metadata> {
   const hospital = await getHospitalBySlug(params.slug)
   if (!hospital) return { title: 'Hospital Not Found' }
+
+  const isZh = params.locale === 'zh'
+  const name = isZh ? (hospital.name_zh ?? hospital.name_en) : hospital.name_en
+  const desc = isZh
+    ? (hospital.description_zh ?? hospital.description_en)
+    : hospital.description_en
+
+  const badges: string[] = []
+  if (hospital.grade) badges.push(hospital.grade)
+  if (hospital.jci_accredited) badges.push('JCI Accredited')
+  if (hospital.international_dept) badges.push('International Dept')
+
+  const title = `${name} — MyChinaMed`
+  const description = badges.length
+    ? `${badges.join(' · ')}. ${desc?.slice(0, 120) ?? ''}`
+    : desc?.slice(0, 160) ?? ''
+
   return {
-    title: `${hospital.name_en} — MyChinaMed`,
-    description: hospital.description_en?.slice(0, 160),
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `${SITE_URL}/${params.locale}/hospitals/${params.slug}`,
+      siteName: 'MyChinaMed',
+      locale: params.locale,
+      type: 'article',
+    },
+    alternates: {
+      canonical: `${SITE_URL}/en/hospitals/${params.slug}`,
+      languages: {
+        en: `${SITE_URL}/en/hospitals/${params.slug}`,
+        zh: `${SITE_URL}/zh/hospitals/${params.slug}`,
+        ru: `${SITE_URL}/ru/hospitals/${params.slug}`,
+      },
+    },
   }
 }
 
@@ -24,13 +61,22 @@ export default async function HospitalDetailPage({ params }: HospitalDetailPageP
   const hospital = await getHospitalBySlug(params.slug)
   if (!hospital) notFound()
 
+  const locale = params.locale
+  const isZh = locale === 'zh'
+  const t = await getTranslations({ locale, namespace: 'hospitalsPage' })
+  const tNav = await getTranslations({ locale, namespace: 'nav' })
+
   const citiesArr = hospital.cities as {
     id: string; name_en: string; name_zh: string | null; slug: string; airport_code: string | null
   }[] | null
   const city = citiesArr?.[0] ?? null
 
+  const description = isZh
+    ? (hospital.description_zh ?? hospital.description_en)
+    : hospital.description_en
+
   // Extract highlights from description
-  const descSentences = hospital.description_en?.split('. ').filter(Boolean) ?? []
+  const descSentences = description?.split('. ').filter(Boolean) ?? []
   const highlights = descSentences.slice(0, 4).map((s: string) =>
     s.endsWith('.') ? s : s + '.'
   )
@@ -45,21 +91,23 @@ export default async function HospitalDetailPage({ params }: HospitalDetailPageP
             className="mb-6 inline-flex items-center gap-1 text-sm text-text-muted transition-colors hover:text-brand"
           >
             <ArrowLeft className="h-4 w-4" />
-            All Hospitals
+            {t('allHospitals')}
           </Link>
 
           <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
             <div>
               <h1 className="font-heading text-3xl text-text-primary md:text-4xl">
-                {hospital.name_en}
+                {isZh ? (hospital.name_zh ?? hospital.name_en) : hospital.name_en}
               </h1>
-              <p className="mt-1 text-lg text-text-muted">{hospital.name_zh}</p>
+              <p className="mt-1 text-lg text-text-muted">
+                {isZh ? hospital.name_en : hospital.name_zh}
+              </p>
 
               {/* Location */}
               {city && (
                 <p className="mt-3 inline-flex items-center gap-1.5 text-sm text-text-secondary">
                   <MapPin className="h-4 w-4" />
-                  {city.name_en}, China
+                  {isZh ? (city.name_zh ?? city.name_en) : city.name_en}, China
                   {city.airport_code && (
                     <span className="ml-2 inline-flex items-center gap-1 text-text-muted">
                       <Plane className="h-3.5 w-3.5" />
@@ -110,7 +158,7 @@ export default async function HospitalDetailPage({ params }: HospitalDetailPageP
                 href="/get-quote"
                 className="rounded-xl bg-brand px-8 py-3 text-center font-body text-base font-semibold text-white shadow-sm transition-all duration-200 hover:bg-brand-dark hover:shadow-md"
               >
-                Get Free Quote
+                {tNav('getQuote')}
               </Link>
               {hospital.website && (
                 <a
@@ -120,7 +168,7 @@ export default async function HospitalDetailPage({ params }: HospitalDetailPageP
                   className="inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-200 px-6 py-3 text-sm text-text-secondary transition-colors hover:border-brand hover:text-brand"
                 >
                   <ExternalLink className="h-4 w-4" />
-                  Official Website
+                  {t('officialWebsite')}
                 </a>
               )}
             </div>
@@ -136,10 +184,10 @@ export default async function HospitalDetailPage({ params }: HospitalDetailPageP
             {/* About */}
             <div>
               <h2 className="mb-4 font-heading text-2xl text-text-primary">
-                About This Hospital
+                {t('aboutHospital')}
               </h2>
               <p className="text-base leading-relaxed text-text-secondary">
-                {hospital.description_en}
+                {description}
               </p>
             </div>
 
@@ -147,7 +195,7 @@ export default async function HospitalDetailPage({ params }: HospitalDetailPageP
             {highlights.length > 0 && (
               <div>
                 <h2 className="mb-4 font-heading text-2xl text-text-primary">
-                  Why Choose This Hospital
+                  {t('whyChoose')}
                 </h2>
                 <ul className="space-y-3">
                   {highlights.map((h: string, i: number) => (
@@ -168,7 +216,7 @@ export default async function HospitalDetailPage({ params }: HospitalDetailPageP
             {hospital.languages_supported?.length > 0 && (
               <div>
                 <h2 className="mb-4 font-heading text-2xl text-text-primary">
-                  Languages Supported
+                  {t('languagesSupported')}
                 </h2>
                 <div className="flex flex-wrap gap-2">
                   {hospital.languages_supported.map((lang: string) => (
@@ -188,13 +236,13 @@ export default async function HospitalDetailPage({ params }: HospitalDetailPageP
           <div className="space-y-4">
             <div className="rounded-2xl border border-slate-200 bg-white p-6">
               <h3 className="mb-4 font-heading text-xl text-text-primary">
-                Hospital Stats
+                {t('hospitalStats')}
               </h3>
               <div className="space-y-4">
                 {hospital.bed_count && (
                   <div className="flex items-center justify-between">
                     <span className="flex items-center gap-2 text-sm text-text-secondary">
-                      <Bed className="h-4 w-4 text-brand" /> Beds
+                      <Bed className="h-4 w-4 text-brand" /> {t('beds')}
                     </span>
                     <span className="font-mono text-sm font-semibold text-text-primary">
                       {hospital.bed_count.toLocaleString()}
@@ -204,7 +252,7 @@ export default async function HospitalDetailPage({ params }: HospitalDetailPageP
                 {hospital.annual_patients && (
                   <div className="flex items-center justify-between">
                     <span className="flex items-center gap-2 text-sm text-text-secondary">
-                      <Users className="h-4 w-4 text-brand" /> Annual Patients
+                      <Users className="h-4 w-4 text-brand" /> {t('annualPatients')}
                     </span>
                     <span className="font-mono text-sm font-semibold text-text-primary">
                       {hospital.annual_patients.toLocaleString()}
@@ -214,7 +262,7 @@ export default async function HospitalDetailPage({ params }: HospitalDetailPageP
                 {hospital.international_patients_annually && (
                   <div className="flex items-center justify-between">
                     <span className="flex items-center gap-2 text-sm text-text-secondary">
-                      <Globe className="h-4 w-4 text-brand" /> Int&apos;l Patients/yr
+                      <Globe className="h-4 w-4 text-brand" /> {t('intlPatientsYr')}
                     </span>
                     <span className="font-mono text-sm font-semibold text-text-primary">
                       {hospital.international_patients_annually.toLocaleString()}
@@ -223,7 +271,7 @@ export default async function HospitalDetailPage({ params }: HospitalDetailPageP
                 )}
                 <div className="flex items-center justify-between">
                   <span className="flex items-center gap-2 text-sm text-text-secondary">
-                    <Building2 className="h-4 w-4 text-brand" /> Grade
+                    <Building2 className="h-4 w-4 text-brand" /> {t('grade')}
                   </span>
                   <span className="font-mono text-sm font-semibold text-text-primary">
                     {hospital.grade ?? 'N/A'}
@@ -234,16 +282,15 @@ export default async function HospitalDetailPage({ params }: HospitalDetailPageP
 
             {/* CTA card */}
             <div className="rounded-2xl bg-brand p-6 text-white">
-              <h3 className="font-heading text-xl">Need Help Choosing?</h3>
+              <h3 className="font-heading text-xl">{t('needHelp')}</h3>
               <p className="mt-2 text-sm text-white/80">
-                Our medical coordinators can help you find the right hospital and
-                doctor for your needs — 100% free.
+                {t('needHelpDesc')}
               </p>
               <Link
                 href="/get-quote"
                 className="mt-4 block rounded-xl bg-white px-6 py-3 text-center font-body text-sm font-semibold text-brand transition-all duration-200 hover:shadow-md"
               >
-                Get Free Quote
+                {tNav('getQuote')}
               </Link>
             </div>
           </div>

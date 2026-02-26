@@ -17,7 +17,7 @@ export async function getHospitals(city?: string) {
       id, name_en, name_zh, slug, grade,
       jci_accredited, temos_certified, iso_certified,
       international_dept, languages_supported,
-      bed_count, description_en, website, featured,
+      bed_count, description_en, description_zh, website, featured,
       city_id,
       cities ( id, name_en, name_zh, slug )
     `)

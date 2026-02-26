@@ -2,17 +2,38 @@ import { useTranslations } from 'next-intl'
 import { getTranslations } from 'next-intl/server'
 import { Clock, ShieldCheck, DollarSign } from 'lucide-react'
 import QuoteForm from '@/components/sections/QuoteForm'
+import type { Metadata } from 'next'
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mychinamed.com'
 
 interface GetQuotePageProps {
   params: { locale: string }
   searchParams: { treatment?: string }
 }
 
-export async function generateMetadata({ params }: GetQuotePageProps) {
+export async function generateMetadata({ params }: GetQuotePageProps): Promise<Metadata> {
   const t = await getTranslations({ locale: params.locale, namespace: 'quoteForm' })
+  const title = `${t('pageTitle')} — MyChinaMed`
+  const description = t('pageSubtitle')
   return {
-    title: `${t('pageTitle')} — MyChinaMed`,
-    description: t('pageSubtitle'),
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `${SITE_URL}/${params.locale}/get-quote`,
+      siteName: 'MyChinaMed',
+      locale: params.locale,
+      type: 'website',
+    },
+    alternates: {
+      canonical: `${SITE_URL}/en/get-quote`,
+      languages: {
+        en: `${SITE_URL}/en/get-quote`,
+        zh: `${SITE_URL}/zh/get-quote`,
+        ru: `${SITE_URL}/ru/get-quote`,
+      },
+    },
   }
 }
 

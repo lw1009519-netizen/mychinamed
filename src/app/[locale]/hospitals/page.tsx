@@ -1,11 +1,39 @@
 import { getHospitals, getCities } from '@/lib/supabase/queries'
 import { Link } from '@/i18n/routing'
 import { Building2, Globe, ShieldCheck, Bed, ChevronRight } from 'lucide-react'
+import { getTranslations } from 'next-intl/server'
+import type { Metadata } from 'next'
 
-export const metadata = {
-  title: 'Top Hospitals in China — MyChinaMed',
-  description:
-    'Browse 40+ accredited Chinese hospitals across 8 major cities. Grade III-A, JCI-certified, with international patient departments.',
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mychinamed.com'
+
+interface HospitalsPageProps {
+  params: { locale: string }
+}
+
+export async function generateMetadata({ params }: HospitalsPageProps): Promise<Metadata> {
+  const t = await getTranslations({ locale: params.locale, namespace: 'hospitalsPage' })
+  const title = t('metaTitle')
+  const description = t('metaDescription')
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `${SITE_URL}/${params.locale}/hospitals`,
+      siteName: 'MyChinaMed',
+      locale: params.locale,
+      type: 'website',
+    },
+    alternates: {
+      canonical: `${SITE_URL}/en/hospitals`,
+      languages: {
+        en: `${SITE_URL}/en/hospitals`,
+        zh: `${SITE_URL}/zh/hospitals`,
+        ru: `${SITE_URL}/ru/hospitals`,
+      },
+    },
+  }
 }
 
 interface HospitalRow {
@@ -21,23 +49,28 @@ interface HospitalRow {
   languages_supported: string[]
   bed_count: number | null
   description_en: string | null
+  description_zh: string | null
   website: string | null
   featured: boolean
   city_id: string | null
   cities: { id: string; name_en: string; name_zh: string | null; slug: string }[] | null
 }
 
-export default async function HospitalsPage() {
+export default async function HospitalsPage({ params }: HospitalsPageProps) {
+  const locale = params.locale
+  const t = await getTranslations({ locale, namespace: 'hospitalsPage' })
+
   const [hospitals, cities] = await Promise.all([
     getHospitals() as Promise<HospitalRow[]>,
     getCities(),
   ])
 
-  // Group hospitals by city
   const grouped = cities.map((city) => ({
     city,
     hospitals: hospitals.filter((h) => h.city_id === city.id),
   })).filter((g) => g.hospitals.length > 0)
+
+  const isZh = locale === 'zh'
 
   return (
     <div className="pt-16 md:pt-20">
@@ -45,11 +78,10 @@ export default async function HospitalsPage() {
       <section className="bg-gradient-to-br from-brand-light to-white px-4 py-16 md:px-8 md:py-20 lg:px-16">
         <div className="mx-auto max-w-7xl text-center">
           <h1 className="font-heading text-4xl text-text-primary md:text-5xl">
-            Top Hospitals in China
+            {t('title')}
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-text-secondary">
-            Browse {hospitals.length} accredited hospitals across {cities.length} major
-            cities. All Grade III-A with international patient services.
+            {t('subtitle', { count: hospitals.length, cities: cities.length })}
           </p>
         </div>
       </section>
@@ -62,11 +94,16 @@ export default async function HospitalsPage() {
               {/* City header */}
               <div className="mb-6 flex items-baseline gap-3">
                 <h2 className="font-heading text-2xl text-text-primary md:text-3xl">
-                  {city.name_en}
+                  {isZh ? (city.name_zh ?? city.name_en) : city.name_en}
                 </h2>
-                <span className="text-lg text-text-muted">{city.name_zh}</span>
+                {!isZh && city.name_zh && (
+                  <span className="text-lg text-text-muted">{city.name_zh}</span>
+                )}
+                {isZh && (
+                  <span className="text-lg text-text-muted">{city.name_en}</span>
+                )}
                 <span className="rounded-full bg-brand-light px-3 py-0.5 text-xs font-medium text-brand">
-                  {cityHospitals.length} hospitals
+                  {t('hospitalCount', { count: cityHospitals.length })}
                 </span>
               </div>
 
@@ -80,10 +117,10 @@ export default async function HospitalsPage() {
                   >
                     {/* Name */}
                     <h3 className="font-heading text-lg text-text-primary group-hover:text-brand">
-                      {hospital.name_en}
+                      {isZh ? (hospital.name_zh ?? hospital.name_en) : hospital.name_en}
                     </h3>
                     <p className="mt-0.5 text-sm text-text-muted">
-                      {hospital.name_zh}
+                      {isZh ? hospital.name_en : hospital.name_zh}
                     </p>
 
                     {/* Badges */}
@@ -113,7 +150,7 @@ export default async function HospitalsPage() {
                       {hospital.bed_count && (
                         <span className="inline-flex items-center gap-1">
                           <Bed className="h-3.5 w-3.5" />
-                          {hospital.bed_count.toLocaleString()} beds
+                          {hospital.bed_count.toLocaleString()} {t('beds')}
                         </span>
                       )}
                       {hospital.languages_supported.length > 0 && (
@@ -124,15 +161,17 @@ export default async function HospitalsPage() {
                     </div>
 
                     {/* Description preview */}
-                    {hospital.description_en && (
+                    {(isZh ? hospital.description_zh : hospital.description_en) && (
                       <p className="mt-3 line-clamp-2 flex-1 text-sm leading-relaxed text-text-secondary">
-                        {hospital.description_en}
+                        {isZh
+                          ? (hospital.description_zh ?? hospital.description_en)
+                          : hospital.description_en}
                       </p>
                     )}
 
                     {/* Link hint */}
                     <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-brand opacity-0 transition-opacity group-hover:opacity-100">
-                      View Details <ChevronRight className="h-4 w-4" />
+                      {t('viewDetails')} <ChevronRight className="h-4 w-4" />
                     </span>
                   </Link>
                 ))}
