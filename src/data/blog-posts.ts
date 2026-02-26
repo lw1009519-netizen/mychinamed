@@ -1,4 +1,4 @@
-export type BlogCategory = 'dental' | 'eye' | 'cosmetic' | 'oncology' | 'orthopedic' | 'general'
+export type BlogCategory = 'dental' | 'eye' | 'cosmetic' | 'oncology' | 'orthopedic' | 'general' | 'fertility' | 'tcm'
 
 export interface BlogPost {
   slug: string
@@ -26,6 +26,8 @@ export const blogCategories: BlogCategory[] = [
   'oncology',
   'orthopedic',
   'general',
+  'fertility',
+  'tcm',
 ]
 
 export const blogPosts: BlogPost[] = [
@@ -522,6 +524,546 @@ export const blogPosts: BlogPost[] = [
     </ol>
     <p>At MyChinaMed, we\u2019ve helped patients from over 30 countries access quality healthcare in China. <a href="/get-quote">Get your free consultation today.</a></p>
 `,
+    content_zh: '',
+    content_ru: '',
+  },
+  {
+    slug: 'rhinoplasty-china-cost-guide',
+    title_en: 'Rhinoplasty in China: Cost, Top Surgeons & What Foreign Patients Should Know (2026)',
+    title_zh: '',
+    title_ru: '',
+    excerpt_en: 'Rhinoplasty in China costs $2,500–$5,000 compared to $8,000–$15,000 in the US. Learn about surgical techniques, top cosmetic surgery hospitals, recovery, and how to plan your trip.',
+    excerpt_zh: '',
+    excerpt_ru: '',
+    category: 'cosmetic',
+    date: '2026-02-25',
+    readingTime: 10,
+    metaDescription_en: 'Rhinoplasty in China costs 60-70% less than the US or UK. 2026 guide covering nose job prices, top plastic surgery hospitals in Shanghai and Beijing, techniques, recovery timeline, and patient tips.',
+    metaDescription_zh: '',
+    metaDescription_ru: '',
+    content_en: `
+    <h2 id="overview">Why Get a Nose Job in China?</h2>
+    <p>China has become one of Asia's leading destinations for cosmetic surgery, with rhinoplasty being one of the most requested procedures by both domestic and international patients. Chinese plastic surgeons perform hundreds of thousands of rhinoplasty procedures annually, giving them extraordinary experience — particularly with Asian rhinoplasty techniques that focus on augmentation, tip refinement, and natural-looking results.</p>
+    <p>For international patients, the equation is compelling: top surgeons trained in China, South Korea, or the US, operating in modern facilities with the latest technology, at prices 60-70% below what you'd pay in the West. Whether you're looking for subtle refinement or dramatic reshaping, China offers world-class options.</p>
+
+    <h2 id="cost">How Much Does Rhinoplasty Cost in China?</h2>
+    <table>
+      <thead>
+        <tr><th>Procedure</th><th>🇨🇳 China</th><th>🇺🇸 USA</th><th>🇰🇷 South Korea</th><th>🇹🇭 Thailand</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Basic Rhinoplasty</td><td>$2,500 – $4,000</td><td>$8,000 – $12,000</td><td>$3,000 – $6,000</td><td>$2,500 – $5,000</td></tr>
+        <tr><td>Complex/Revision Rhinoplasty</td><td>$4,000 – $8,000</td><td>$10,000 – $18,000</td><td>$5,000 – $10,000</td><td>$4,000 – $7,000</td></tr>
+        <tr><td>Non-Surgical (Filler)</td><td>$300 – $800</td><td>$1,500 – $3,000</td><td>$500 – $1,500</td><td>$400 – $1,000</td></tr>
+        <tr><td>Septoplasty + Rhinoplasty</td><td>$3,500 – $6,000</td><td>$10,000 – $15,000</td><td>$4,000 – $8,000</td><td>$3,000 – $6,000</td></tr>
+      </tbody>
+    </table>
+    <p>Prices typically include surgeon's fee, anesthesia, hospital stay (1-2 nights), and standard follow-up visits. Implant materials (silicone, Gore-Tex, or rib cartilage) may be quoted separately depending on the clinic.</p>
+
+    <h2 id="techniques">Rhinoplasty Techniques Available in China</h2>
+
+    <h3>Silicone Implant Augmentation</h3>
+    <p>The most common technique in Asia for building up the nasal bridge. A pre-shaped silicone implant is inserted through an incision inside the nostril. Recovery is relatively quick, and results are immediately visible. Cost-effective and widely performed.</p>
+
+    <h3>Autologous Cartilage Rhinoplasty</h3>
+    <p>Uses your own cartilage — typically harvested from the ear or rib — to reshape the nose. This technique produces the most natural-looking and long-lasting results, with no risk of implant rejection. It's more complex and expensive than silicone, but increasingly popular among patients seeking premium results. Chinese surgeons have extensive experience with rib cartilage rhinoplasty.</p>
+
+    <h3>Tip Plasty</h3>
+    <p>Focuses specifically on reshaping the nasal tip without modifying the bridge. Popular among patients who want subtle refinement rather than dramatic change. Can be combined with alar reduction (nostril narrowing) for balanced results.</p>
+
+    <h3>Revision Rhinoplasty</h3>
+    <p>For patients unhappy with a previous nose job, revision rhinoplasty corrects or improves earlier results. This is more complex than primary rhinoplasty and requires a highly experienced surgeon. Several Chinese hospitals specialize in revision cases.</p>
+
+    <h2 id="hospitals">Top Hospitals for Rhinoplasty in China</h2>
+    <ul>
+      <li><strong>Shanghai Ninth People's Hospital</strong> — Part of Shanghai Jiao Tong University, this is China's most prestigious plastic surgery center. The Department of Plastic and Reconstructive Surgery is nationally ranked #1. Surgeons here handle everything from cosmetic procedures to complex reconstructive cases.</li>
+      <li><strong>Peking Union Medical College Hospital (Beijing)</strong> — One of China's top-ranked hospitals overall, with an excellent plastic surgery department. Known for conservative, natural-looking results.</li>
+      <li><strong>West China Hospital, Sichuan University (Chengdu)</strong> — A top-5 hospital in China with a strong cosmetic surgery department. Chengdu is also known for lower living costs, making it a budget-friendly option.</li>
+      <li><strong>Nanfang Hospital, Southern Medical University (Guangzhou)</strong> — Leading plastic surgery center in South China with extensive experience serving international patients from Southeast Asia.</li>
+    </ul>
+
+    <h2 id="timeline">Treatment Timeline</h2>
+    <p>Plan for a 10-14 day trip:</p>
+    <ol>
+      <li><strong>Day 1-2: Consultation</strong> — In-person evaluation, 3D imaging simulation of expected results, discussion of techniques and materials, and final treatment plan confirmation.</li>
+      <li><strong>Day 3: Surgery</strong> — The procedure takes 1-3 hours under general anesthesia. You'll stay overnight at the hospital for monitoring.</li>
+      <li><strong>Day 4-7: Initial recovery</strong> — Swelling and bruising are normal. A nasal splint is worn for 5-7 days. You can walk around and eat normally but should rest as much as possible.</li>
+      <li><strong>Day 7-8: Splint removal and follow-up</strong> — The splint is removed, and you'll see the initial shape of your new nose. Significant swelling is still present but will gradually subside.</li>
+      <li><strong>Day 9-14: Final follow-up and departure</strong> — A final checkup confirms proper healing. You can fly home safely 10-14 days after surgery. Full results are visible after 3-6 months as swelling fully resolves.</li>
+    </ol>
+
+    <h2 id="tips">Tips for International Patients</h2>
+    <ul>
+      <li><strong>Bring reference photos</strong> — Show your surgeon exactly what you want. Clear communication about expectations is crucial for satisfaction.</li>
+      <li><strong>Ask about 3D simulation</strong> — Many top clinics offer computer-generated previews of your expected results.</li>
+      <li><strong>Avoid alcohol and smoking</strong> for at least 2 weeks before and after surgery — both impair healing.</li>
+      <li><strong>Plan your return trip carefully</strong> — You'll look swollen and bruised for 1-2 weeks. Some patients prefer to wait until the worst swelling subsides before flying home.</li>
+      <li><strong>Request before/after photos</strong> from your surgeon — experienced surgeons will have extensive portfolios of previous patients.</li>
+    </ul>
+
+    <h2 id="get-started">Ready to Transform Your Look?</h2>
+    <p>Save thousands on rhinoplasty while being treated by some of Asia's most experienced plastic surgeons. <a href="/get-quote">Get your free consultation</a> today — send us a front and side photo of your nose, tell us what you'd like to change, and we'll recommend the best surgeon and technique for your goals.</p>
+    `,
+    content_zh: '',
+    content_ru: '',
+  },
+  {
+    slug: 'ivf-treatment-china-cost-guide',
+    title_en: 'IVF Treatment in China: Cost, Success Rates & Complete Guide for International Patients (2026)',
+    title_zh: '',
+    title_ru: '',
+    excerpt_en: 'IVF in China costs $4,000–$8,000 per cycle compared to $15,000–$20,000 in the US. Learn about top fertility clinics, success rates, legal requirements, and how to plan your fertility journey.',
+    excerpt_zh: '',
+    excerpt_ru: '',
+    category: 'fertility',
+    date: '2026-02-24',
+    readingTime: 11,
+    metaDescription_en: 'IVF treatment in China costs 60-73% less than the US. 2026 guide covering fertility clinic recommendations, success rates, legal requirements including marriage certificate, and treatment timeline.',
+    metaDescription_zh: '',
+    metaDescription_ru: '',
+    content_en: `
+    <h2 id="overview">IVF in China: Affordable Fertility Treatment with High Success Rates</h2>
+    <p>China has invested heavily in reproductive medicine over the past two decades, and its top fertility centers now report success rates comparable to the best clinics in the US and Europe. With IVF costs 60-73% lower than Western countries, China is emerging as a practical option for international couples struggling with the financial burden of fertility treatment.</p>
+    <p>Important note upfront: China requires a marriage certificate for IVF treatment. This applies to both Chinese and foreign patients. Unmarried individuals and same-sex couples cannot access IVF services in China. If this applies to you, destinations like Thailand, Spain, or the Czech Republic may be better options.</p>
+
+    <h2 id="cost">IVF Cost Comparison</h2>
+    <table>
+      <thead>
+        <tr><th>Procedure</th><th>🇨🇳 China</th><th>🇺🇸 USA</th><th>🇬🇧 UK</th><th>🇹🇭 Thailand</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Standard IVF Cycle</td><td>$4,000 – $6,000</td><td>$15,000 – $20,000</td><td>$6,000 – $10,000</td><td>$4,500 – $8,000</td></tr>
+        <tr><td>IVF + ICSI</td><td>$5,000 – $8,000</td><td>$18,000 – $25,000</td><td>$8,000 – $12,000</td><td>$6,000 – $10,000</td></tr>
+        <tr><td>Frozen Embryo Transfer</td><td>$1,500 – $3,000</td><td>$5,000 – $8,000</td><td>$3,000 – $5,000</td><td>$2,000 – $4,000</td></tr>
+        <tr><td>Medication (per cycle)</td><td>$500 – $2,000</td><td>$3,000 – $7,000</td><td>$1,500 – $3,000</td><td>$1,000 – $3,000</td></tr>
+      </tbody>
+    </table>
+    <p>Chinese fertility clinics often include ultrasound monitoring and basic blood tests in the cycle price. Medication costs vary significantly depending on the protocol and whether domestic or imported drugs are used.</p>
+
+    <h2 id="success-rates">Success Rates</h2>
+    <p>China's top fertility centers report clinical pregnancy rates of 50-65% per transfer for women under 35, which is on par with leading US and European clinics. Success rates decline with age, as expected: 40-50% for ages 35-37, 30-40% for ages 38-40, and 15-25% for ages 41-42. These figures are from China's leading reproductive medicine centers. As with fertility treatment anywhere, individual results depend on many factors including the specific cause of infertility, egg quality, and overall health.</p>
+
+    <h2 id="top-clinics">Top Fertility Clinics in China</h2>
+    <ul>
+      <li><strong>Peking University Third Hospital (Beijing)</strong> — Home to China's first IVF baby (born in 1988). The reproductive medicine center here is considered the country's premier fertility clinic, with cutting-edge technology and extensive research programs.</li>
+      <li><strong>Tongji Hospital, Huazhong University (Wuhan)</strong> — One of China's largest reproductive medicine centers by patient volume. Known for handling complex cases and offering comprehensive fertility services.</li>
+      <li><strong>Jiuzhou Hospital (Wuhan)</strong> — A specialized fertility hospital with high success rates and experience serving international patients.</li>
+      <li><strong>The Sixth Affiliated Hospital of Sun Yat-sen University (Guangzhou)</strong> — Leading fertility center in South China with a dedicated reproductive medicine department.</li>
+      <li><strong>Changsha Reproductive Medicine Hospital</strong> — One of China's earliest specialized fertility hospitals with a strong track record.</li>
+    </ul>
+
+    <h2 id="legal-requirements">Legal Requirements for Foreign Patients</h2>
+    <p>China has specific legal requirements for IVF treatment that international patients must be aware of:</p>
+    <ul>
+      <li><strong>Marriage certificate</strong> — Both partners must be legally married. You'll need to provide an official marriage certificate, translated into Chinese and notarized. Some hospitals accept the original document with a certified translation; others may require apostille authentication.</li>
+      <li><strong>Identification</strong> — Both partners need valid passports.</li>
+      <li><strong>Medical records</strong> — Previous fertility test results, treatment history, and any relevant medical records should be translated into Chinese.</li>
+      <li><strong>Gender selection is prohibited</strong> — Chinese law prohibits sex selection for non-medical reasons.</li>
+      <li><strong>Egg/sperm donation is limited</strong> — Egg donation is available but with long waiting lists at public hospitals. Commercial egg donation is not legal in China.</li>
+    </ul>
+
+    <h2 id="timeline">Treatment Timeline</h2>
+    <p>A standard IVF cycle in China requires 2-4 weeks on-site, depending on the protocol:</p>
+    <ol>
+      <li><strong>Week 1: Initial consultation and testing</strong> — Comprehensive fertility workup for both partners including hormone levels, ultrasound, semen analysis, and other diagnostic tests. Treatment protocol is determined.</li>
+      <li><strong>Week 1-2: Ovarian stimulation</strong> — Daily hormone injections to stimulate egg production. Regular monitoring with ultrasound and blood tests every 2-3 days.</li>
+      <li><strong>Week 2-3: Egg retrieval and fertilization</strong> — Eggs are retrieved under light sedation (20-30 minute procedure). Sperm sample is collected the same day. Fertilization occurs in the lab, and embryos develop for 3-5 days.</li>
+      <li><strong>Week 3-4: Embryo transfer</strong> — One or two embryos are transferred to the uterus in a simple, painless procedure. Remaining viable embryos can be frozen for future use.</li>
+      <li><strong>2 weeks later: Pregnancy test</strong> — A blood test confirms whether the cycle was successful. This can be done at a local clinic in your home country.</li>
+    </ol>
+    <p>Some clinics offer a "freeze-all" approach where all embryos are frozen and the transfer is done in a subsequent natural cycle. This may require a second shorter trip (5-7 days) but can improve success rates.</p>
+
+    <h2 id="tips">Planning Tips</h2>
+    <ul>
+      <li><strong>Start paperwork early</strong> — Getting your marriage certificate translated, notarized, and authenticated takes time. Begin this process at least 1 month before your planned trip.</li>
+      <li><strong>Bring all medical records</strong> — Previous fertility test results can save time and money by avoiding duplicate testing.</li>
+      <li><strong>Consider accommodation with a kitchen</strong> — You'll be in China for 2-4 weeks. A serviced apartment is more comfortable and affordable than a hotel for extended stays.</li>
+      <li><strong>Your partner should plan to be present</strong> for at least the egg retrieval and embryo transfer stages.</li>
+      <li><strong>Ask about frozen embryo storage fees</strong> — If you have excess embryos, annual storage fees in China are typically $200-500, much cheaper than Western clinics.</li>
+    </ul>
+
+    <h2 id="get-started">Start Your Fertility Journey</h2>
+    <p>If the cost of IVF at home is holding you back from starting a family, China offers a high-quality, affordable alternative. <a href="/get-quote">Contact us for a free consultation</a> — share your fertility history and we'll recommend the best clinic and treatment plan for your situation.</p>
+    `,
+    content_zh: '',
+    content_ru: '',
+  },
+  {
+    slug: 'car-t-cell-therapy-china-cost',
+    title_en: 'CAR-T Cell Therapy in China: Cost, Approved Products & How International Patients Can Access Treatment (2026)',
+    title_zh: '',
+    title_ru: '',
+    excerpt_en: 'CAR-T therapy in China costs $120,000–$200,000 compared to $373,000–$475,000 in the US. China has 5 NMPA-approved CAR-T products plus hundreds of clinical trials offering treatment at even lower costs.',
+    excerpt_zh: '',
+    excerpt_ru: '',
+    category: 'oncology',
+    date: '2026-02-24',
+    readingTime: 13,
+    metaDescription_en: 'CAR-T cell therapy in China costs 55-68% less than the US. 2026 guide covering NMPA-approved products, clinical trial access, top cancer hospitals, eligibility, and how to apply as a foreign patient.',
+    metaDescription_zh: '',
+    metaDescription_ru: '',
+    content_en: `
+    <h2 id="overview">CAR-T Therapy: A Lifesaving Treatment at a Fraction of the US Price</h2>
+    <p>CAR-T (Chimeric Antigen Receptor T-cell) therapy represents one of the most groundbreaking advances in cancer treatment. It works by genetically engineering a patient's own immune cells to recognize and attack cancer. For certain blood cancers — including specific types of lymphoma and leukemia — CAR-T therapy has achieved complete remission rates of 50-80% in patients who had exhausted all other treatment options.</p>
+    <p>The problem? In the United States, a single CAR-T treatment costs $373,000 to $475,000 — just for the therapy itself, not including hospitalization, monitoring, and supportive care, which can push total costs above $1 million. Even with insurance, out-of-pocket costs are often devastating.</p>
+    <p>China offers a compelling alternative. With 5 NMPA-approved CAR-T products priced between $120,000 and $200,000, plus hundreds of active clinical trials where treatment may cost as little as $40,000-$80,000, China has become a destination of last resort — and first hope — for cancer patients worldwide.</p>
+
+    <h2 id="approved-products">NMPA-Approved CAR-T Products in China</h2>
+    <p>As of 2026, China has approved 5 CAR-T cell therapy products:</p>
+    <table>
+      <thead>
+        <tr><th>Product</th><th>Manufacturer</th><th>Target</th><th>Approved Indications</th><th>Approximate Cost</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Relma-cel (瑞基奥仑赛)</td><td>JW Therapeutics</td><td>CD19</td><td>Relapsed/refractory large B-cell lymphoma</td><td>¥1.2M (~$165,000)</td></tr>
+        <tr><td>Axi-cel (阿基仑赛)</td><td>Fosun Kite</td><td>CD19</td><td>Relapsed/refractory large B-cell lymphoma</td><td>¥1.2M (~$165,000)</td></tr>
+        <tr><td>Equecabtagene Autoleucel</td><td>IASO Bio</td><td>BCMA</td><td>Relapsed/refractory multiple myeloma</td><td>¥999K (~$137,000)</td></tr>
+        <tr><td>Zevorcabtagene Autoleucel</td><td>Nanjing Legend</td><td>BCMA</td><td>Relapsed/refractory multiple myeloma</td><td>¥999K (~$137,000)</td></tr>
+        <tr><td>Inaticabtagene Autoleucel</td><td>Hrain Biotech</td><td>CD19</td><td>Relapsed/refractory B-cell ALL</td><td>¥999K (~$137,000)</td></tr>
+      </tbody>
+    </table>
+    <p>For comparison, the approved CAR-T products in the US — Kymriah ($475,000), Yescarta ($373,000), Tecartus ($373,000), Abecma ($419,500), and Carvykti ($465,000) — cost 2-3 times more.</p>
+
+    <h2 id="clinical-trials">Clinical Trials: Even More Affordable Access</h2>
+    <p>China is the world's second-largest hub for CAR-T clinical trials, with hundreds of active trials across the country. For international patients, clinical trials offer several advantages: treatment costs are often significantly reduced ($40,000-$80,000 or sometimes free for the therapy itself), access to next-generation CAR-T products not yet commercially available, and the possibility of treating cancer types not yet covered by approved products.</p>
+    <p>Clinical trials in China cover a wide range of cancers including B-cell lymphoma and leukemia (CD19 targets), multiple myeloma (BCMA targets), and increasingly solid tumors such as hepatocellular carcinoma, gastric cancer, and lung cancer (though solid tumor CAR-T is still in earlier stages of development).</p>
+
+    <h2 id="eligibility">Who Is Eligible?</h2>
+    <p>CAR-T therapy is typically considered for patients who meet these criteria:</p>
+    <ul>
+      <li>Diagnosis of a qualifying cancer type (primarily B-cell lymphomas, B-cell acute lymphoblastic leukemia, or multiple myeloma for approved products)</li>
+      <li>Relapsed or refractory disease — meaning cancer has returned after treatment or hasn't responded to standard therapies</li>
+      <li>Failed at least 2 prior lines of treatment</li>
+      <li>Adequate organ function (heart, liver, kidneys) to tolerate the treatment</li>
+      <li>ECOG performance status 0-1 (able to carry out normal daily activities)</li>
+    </ul>
+    <p>Each product and clinical trial has specific eligibility criteria. We can help determine which options you may qualify for based on your medical records.</p>
+
+    <h2 id="top-hospitals">Top Hospitals for CAR-T in China</h2>
+    <ul>
+      <li><strong>Chinese PLA General Hospital (301 Hospital, Beijing)</strong> — A pioneer in CAR-T research in China with extensive clinical experience across multiple cancer types.</li>
+      <li><strong>Tongji Hospital, Huazhong University (Wuhan)</strong> — One of China's leading centers for hematological malignancies and CAR-T therapy.</li>
+      <li><strong>Ruijin Hospital, Shanghai Jiao Tong University</strong> — Shanghai's premier hematology center with active CAR-T clinical programs.</li>
+      <li><strong>The First Affiliated Hospital of Zhejiang University (Hangzhou)</strong> — Strong hematology and oncology department with CAR-T treatment experience.</li>
+      <li><strong>National Cancer Center / Cancer Hospital (Beijing)</strong> — China's leading cancer research institution with access to the latest clinical trials.</li>
+    </ul>
+
+    <h2 id="process">The Treatment Process</h2>
+    <p>CAR-T therapy requires a longer stay in China compared to other medical tourism procedures — typically 6-8 weeks total:</p>
+    <ol>
+      <li><strong>Week 1: Evaluation (3-5 days)</strong> — Comprehensive medical workup including blood tests, imaging, bone marrow biopsy, and cardiac function assessment to confirm eligibility.</li>
+      <li><strong>Week 1-2: T-cell collection (Leukapheresis)</strong> — Your blood is drawn through a special machine that separates and collects T-cells. The process takes 3-4 hours. Your T-cells are sent to the manufacturing facility.</li>
+      <li><strong>Week 2-5: Manufacturing (2-4 weeks)</strong> — Your T-cells are genetically modified in the lab to express the chimeric antigen receptor, then multiplied to produce millions of CAR-T cells. During this waiting period, you can rest at your accommodation or explore the city. Some patients return home and come back for infusion.</li>
+      <li><strong>Week 5: Conditioning chemotherapy (2-3 days)</strong> — Low-dose chemotherapy to prepare your body to receive the CAR-T cells.</li>
+      <li><strong>Week 5-6: CAR-T infusion and monitoring</strong> — The modified T-cells are infused back into your bloodstream. You'll be monitored closely for 7-14 days for cytokine release syndrome (CRS) and other side effects. Hospital stay during this period is required.</li>
+      <li><strong>Week 6-8: Recovery monitoring</strong> — Continued outpatient monitoring before clearance to travel home.</li>
+    </ol>
+
+    <h2 id="side-effects">Understanding the Risks</h2>
+    <p>CAR-T therapy is a powerful treatment with significant potential side effects:</p>
+    <ul>
+      <li><strong>Cytokine Release Syndrome (CRS)</strong> — The most common side effect, occurring in 50-80% of patients. Ranges from mild flu-like symptoms to severe cases requiring ICU care. Chinese hospitals are well-equipped to manage CRS with tocilizumab and supportive care.</li>
+      <li><strong>Neurotoxicity (ICANS)</strong> — Neurological symptoms including confusion, difficulty speaking, or seizures. Usually temporary and reversible. Occurs in 20-40% of patients.</li>
+      <li><strong>Prolonged cytopenias</strong> — Low blood cell counts lasting weeks to months after treatment, increasing infection risk.</li>
+      <li><strong>B-cell aplasia</strong> — As CAR-T cells target CD19 or BCMA, normal B-cells are also affected, leading to increased infection susceptibility requiring immunoglobulin replacement therapy.</li>
+    </ul>
+    <p>Despite these risks, for patients with relapsed or refractory cancer who have no other effective treatment options, the potential benefit of complete remission far outweighs the risks.</p>
+
+    <h2 id="get-started">How to Apply</h2>
+    <p>If you or a loved one is battling cancer and considering CAR-T therapy, here's how to get started:</p>
+    <ol>
+      <li><strong>Send your medical records</strong> — Include your diagnosis, pathology reports, treatment history, and most recent imaging. Use our <a href="/get-quote">consultation form</a> or WhatsApp.</li>
+      <li><strong>We review your case</strong> — Within 48-72 hours, we'll determine which approved products or clinical trials you may be eligible for, and provide a cost estimate.</li>
+      <li><strong>Hospital evaluation</strong> — Your records are reviewed by the oncology team at the recommended hospital. They'll confirm eligibility and provide a formal treatment plan.</li>
+      <li><strong>Plan your trip</strong> — We help coordinate your medical visa, accommodation near the hospital, and all logistics for your 6-8 week stay.</li>
+    </ol>
+    <p>Time matters in cancer treatment. <a href="/get-quote">Contact us today</a> for a free, no-obligation case review.</p>
+    `,
+    content_zh: '',
+    content_ru: '',
+  },
+  {
+    slug: 'health-checkup-china-guide',
+    title_en: 'Executive Health Checkup in China: Packages, Costs & Top Hospitals (2026)',
+    title_zh: '',
+    title_ru: '',
+    excerpt_en: 'Comprehensive health screening packages in China cost $300–$2,000 compared to $3,000–$8,000 in the US. Get a full-body checkup while traveling in China.',
+    excerpt_zh: '',
+    excerpt_ru: '',
+    category: 'general',
+    date: '2026-02-23',
+    readingTime: 8,
+    metaDescription_en: 'Executive health checkup packages in China cost 75-90% less than the US. 2026 guide covering what\'s included, top hospital screening centers, and how to combine a health checkup with your China trip.',
+    metaDescription_zh: '',
+    metaDescription_ru: '',
+    content_en: `
+    <h2 id="overview">Combine Travel with a World-Class Health Screening</h2>
+    <p>One of the easiest and most practical ways to take advantage of China's affordable healthcare is through an executive health checkup. Whether you're visiting China for business, tourism, or another medical procedure, adding a comprehensive health screening takes just half a day and costs a fraction of what you'd pay at home.</p>
+    <p>Chinese hospitals have dedicated health screening centers (体检中心) that operate like well-oiled machines — you move through a series of stations for blood work, imaging, cardiac tests, and specialist consultations, and receive a detailed report within 1-3 days. Many of these centers serve thousands of patients per day, giving them enormous efficiency and experience in catching early-stage conditions.</p>
+
+    <h2 id="packages">Typical Screening Packages</h2>
+    <table>
+      <thead>
+        <tr><th>Package</th><th>🇨🇳 China</th><th>🇺🇸 USA</th><th>What's Included</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Basic Screening</td><td>$300 – $500</td><td>$3,000 – $4,000</td><td>Blood panel, urine, ECG, chest X-ray, abdominal ultrasound, basic physical exam</td></tr>
+        <tr><td>Standard Executive</td><td>$500 – $1,000</td><td>$4,000 – $6,000</td><td>All basic + tumor markers, thyroid function, cardiac echo, liver/kidney detailed, gastric H.pylori test</td></tr>
+        <tr><td>Premium Executive</td><td>$1,000 – $2,000</td><td>$6,000 – $8,000</td><td>All standard + low-dose CT chest, brain MRI, coronary CT, PET-CT (optional), cancer genetic screening</td></tr>
+        <tr><td>VIP with PET-CT</td><td>$1,500 – $3,000</td><td>$8,000 – $12,000</td><td>Everything above + full-body PET-CT scan for early cancer detection</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="whats-included">What Does a Standard Executive Checkup Include?</h2>
+    <p>A typical standard executive health screening in a Chinese hospital covers over 50 individual test items:</p>
+    <ul>
+      <li><strong>Blood work</strong> — Complete blood count, liver function (ALT, AST, bilirubin), kidney function (creatinine, BUN, uric acid), blood glucose and HbA1c (diabetes screening), lipid profile (cholesterol, triglycerides, LDL/HDL), thyroid function (TSH, T3, T4), tumor markers (AFP, CEA, CA19-9, PSA for men, CA125 for women)</li>
+      <li><strong>Cardiac</strong> — 12-lead electrocardiogram (ECG), blood pressure measurement, cardiac echocardiogram (ultrasound of the heart)</li>
+      <li><strong>Imaging</strong> — Chest X-ray, abdominal ultrasound (liver, gallbladder, pancreas, spleen, kidneys), thyroid ultrasound, pelvic ultrasound (for women), carotid artery ultrasound</li>
+      <li><strong>Specialist consultations</strong> — Internal medicine review, eye exam (vision, fundoscopy, intraocular pressure), ENT exam, dental screening</li>
+      <li><strong>Other</strong> — Urinalysis, stool occult blood test, bone density scan (DEXA), body composition analysis, H.pylori breath test</li>
+    </ul>
+
+    <h2 id="hospitals">Top Health Screening Centers</h2>
+    <ul>
+      <li><strong>Peking Union Medical College Hospital International Medical Center (Beijing)</strong> — China's most prestigious hospital with a dedicated VIP health screening floor. English-speaking staff available. Results can be provided in English.</li>
+      <li><strong>Huashan Hospital International Medical Center (Shanghai)</strong> — Fudan University's flagship hospital with an efficient screening center catering to international patients and executives.</li>
+      <li><strong>iKang Healthcare Group</strong> — China's largest private health screening chain with locations in 30+ cities. Standardized packages, online booking, and English reports available at major city locations.</li>
+      <li><strong>Meinian Onehealth</strong> — Another major private screening chain with convenient locations and quick turnaround on results.</li>
+    </ul>
+
+    <h2 id="process">How It Works</h2>
+    <ol>
+      <li><strong>Evening before</strong> — Fast from 10 PM (no food or drink except water). This ensures accurate blood test results.</li>
+      <li><strong>Morning (7-8 AM arrival)</strong> — Check in at the screening center. You'll receive a checklist and move through stations at your own pace.</li>
+      <li><strong>3-4 hours later</strong> — All tests completed. Some results (blood pressure, ECG, ultrasound) are available immediately.</li>
+      <li><strong>1-3 days later</strong> — Complete report ready for pickup or emailed to you. Many centers offer bilingual (Chinese-English) reports upon request.</li>
+      <li><strong>Optional follow-up</strong> — If any findings require attention, the screening center can arrange specialist consultations at the same hospital.</li>
+    </ol>
+
+    <h2 id="get-started">Book Your Health Screening</h2>
+    <p>A comprehensive health checkup in China is the perfect add-on to any trip. Whether you're here for tourism, business, or another medical procedure, take advantage of world-class screening at a fraction of the Western price. <a href="/get-quote">Contact us</a> to book your health screening package today.</p>
+    `,
+    content_zh: '',
+    content_ru: '',
+  },
+  {
+    slug: 'dental-veneers-china-cost-guide',
+    title_en: 'Dental Veneers in China: Porcelain & Composite Veneers Cost Guide (2026)',
+    title_zh: '',
+    title_ru: '',
+    excerpt_en: 'Dental veneers in China cost $300–$800 per tooth compared to $1,000–$2,500 in the US. Learn about veneer types, top dental clinics, and how to get a perfect smile for less.',
+    excerpt_zh: '',
+    excerpt_ru: '',
+    category: 'dental',
+    date: '2026-02-23',
+    readingTime: 9,
+    metaDescription_en: 'Dental veneers in China cost 60-70% less than the US or UK. 2026 guide covering porcelain vs composite veneers, costs per tooth, top dental clinics, treatment timeline, and care tips.',
+    metaDescription_zh: '',
+    metaDescription_ru: '',
+    content_en: `
+    <h2 id="overview">Transform Your Smile at a Fraction of the Price</h2>
+    <p>Dental veneers are one of the most popular cosmetic dental treatments worldwide — thin shells bonded to the front of your teeth to create a perfect smile. But the cost can be prohibitive: a full set of 8-10 veneers in the US costs $10,000 to $25,000. In China, the same treatment with the same porcelain materials costs $2,400 to $8,000.</p>
+    <p>For patients wanting a complete smile makeover, the savings on veneers alone can easily cover round-trip flights and a week of accommodation in China, with thousands left over.</p>
+
+    <h2 id="cost">Veneer Costs: China vs the World</h2>
+    <table>
+      <thead>
+        <tr><th>Veneer Type</th><th>🇨🇳 China (per tooth)</th><th>🇺🇸 USA (per tooth)</th><th>🇬🇧 UK (per tooth)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Composite Veneers</td><td>$150 – $300</td><td>$400 – $1,000</td><td>$350 – $800</td></tr>
+        <tr><td>Standard Porcelain</td><td>$300 – $500</td><td>$1,000 – $1,800</td><td>$800 – $1,500</td></tr>
+        <tr><td>Premium Porcelain (E.max)</td><td>$400 – $700</td><td>$1,200 – $2,500</td><td>$1,000 – $2,000</td></tr>
+        <tr><td>Ultra-thin (No-prep/Lumineers)</td><td>$500 – $800</td><td>$1,500 – $2,500</td><td>$1,200 – $2,200</td></tr>
+      </tbody>
+    </table>
+    <p>A full smile makeover (top 8-10 teeth) in China: $2,400–$8,000. The same in the US: $10,000–$25,000.</p>
+
+    <h2 id="types">Types of Veneers</h2>
+    <h3>Porcelain Veneers (Most Popular)</h3>
+    <p>Custom-made ceramic shells crafted in a dental lab. Porcelain veneers look the most natural, resist staining, and last 10-15 years with proper care. The process requires removing a thin layer (0.5mm) of enamel from your teeth. E.max lithium disilicate is the most popular porcelain material, offering the best combination of aesthetics and durability.</p>
+
+    <h3>Composite Veneers</h3>
+    <p>Made from tooth-colored resin applied directly to the teeth in a single visit. They're cheaper and don't require enamel removal, but they're less durable (5-7 years), more prone to staining, and don't look quite as natural as porcelain. Best for patients wanting a quick, reversible improvement on a budget.</p>
+
+    <h3>No-Prep / Ultra-Thin Veneers</h3>
+    <p>Ultra-thin porcelain veneers (0.2-0.3mm) that require minimal or no tooth preparation. The advantage is preserving your natural tooth structure. However, they can only address minor cosmetic issues and may not work for significantly discolored or misaligned teeth. They're also the most expensive option.</p>
+
+    <h2 id="process">Treatment Timeline</h2>
+    <p>Getting porcelain veneers in China typically requires 5-7 days:</p>
+    <ol>
+      <li><strong>Day 1: Consultation and planning</strong> — Dental exam, X-rays, photos, and discussion of your desired shape, shade, and style. Many clinics offer digital smile design so you can preview your results.</li>
+      <li><strong>Day 2: Tooth preparation</strong> — A thin layer of enamel is carefully removed. Temporary veneers are placed to protect your teeth while the permanent ones are being made.</li>
+      <li><strong>Day 3-5: Lab fabrication</strong> — Your custom porcelain veneers are crafted in a dental lab. This typically takes 3-5 days. You can explore the city during this time.</li>
+      <li><strong>Day 5-7: Bonding and fitting</strong> — Temporary veneers are removed, permanent veneers are tried in for fit and color match, then permanently bonded. Final adjustments are made for a comfortable bite.</li>
+      <li><strong>Day 7: Final checkup</strong> — A follow-up to ensure everything is perfect before you head home with your new smile.</li>
+    </ol>
+
+    <h2 id="care">Caring for Your Veneers</h2>
+    <ul>
+      <li>Brush twice daily with a non-abrasive toothpaste</li>
+      <li>Floss daily — veneers protect the front of your teeth but not between them</li>
+      <li>Avoid biting hard objects (ice, pens, fingernails)</li>
+      <li>Wear a night guard if you grind your teeth</li>
+      <li>Regular dental checkups every 6 months</li>
+      <li>Porcelain veneers don't stain, but the bonding cement at the edges can — limit coffee, tea, and red wine exposure</li>
+    </ul>
+
+    <h2 id="get-started">Get Your Dream Smile</h2>
+    <p>Ready for a smile transformation? <a href="/get-quote">Send us a photo of your teeth</a> and tell us what you'd like to change. We'll recommend the best veneer type and clinic for your goals, with a transparent price quote. Most patients save $5,000-$15,000 compared to getting veneers at home.</p>
+    `,
+    content_zh: '',
+    content_ru: '',
+  },
+  {
+    slug: 'joint-replacement-china-cost-guide',
+    title_en: 'Hip & Knee Replacement in China: Cost, Hospitals & Recovery Guide (2026)',
+    title_zh: '',
+    title_ru: '',
+    excerpt_en: 'Joint replacement surgery in China costs $8,000–$15,000 compared to $30,000–$50,000 in the US. Learn about top orthopedic hospitals, implant options, and rehabilitation.',
+    excerpt_zh: '',
+    excerpt_ru: '',
+    category: 'orthopedic',
+    date: '2026-02-22',
+    readingTime: 10,
+    metaDescription_en: 'Hip and knee replacement in China costs 60-73% less than the US. 2026 guide covering joint replacement costs, top orthopedic hospitals, implant brands, surgery timeline, and rehabilitation options.',
+    metaDescription_zh: '',
+    metaDescription_ru: '',
+    content_en: `
+    <h2 id="overview">World-Class Joint Replacement at Affordable Prices</h2>
+    <p>For millions of people suffering from severe arthritis, hip or knee replacement surgery is life-changing — restoring mobility, eliminating chronic pain, and dramatically improving quality of life. But in the US, a single joint replacement costs $30,000 to $50,000, and bilateral replacements can exceed $80,000. Even with insurance, copays and deductibles often run into the tens of thousands.</p>
+    <p>China's top orthopedic hospitals perform tens of thousands of joint replacements annually using the same implant brands — Zimmer Biomet, DePuy Synthes (Johnson & Johnson), Smith & Nephew, and Stryker — at prices 60-73% lower. With shorter wait times and excellent post-operative rehabilitation programs, China is an increasingly attractive option for international patients.</p>
+
+    <h2 id="cost">Cost Comparison</h2>
+    <table>
+      <thead>
+        <tr><th>Procedure</th><th>🇨🇳 China</th><th>🇺🇸 USA</th><th>🇬🇧 UK (Private)</th><th>🇹🇭 Thailand</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Total Knee Replacement</td><td>$8,000 – $12,000</td><td>$30,000 – $45,000</td><td>$15,000 – $25,000</td><td>$10,000 – $18,000</td></tr>
+        <tr><td>Total Hip Replacement</td><td>$8,000 – $15,000</td><td>$30,000 – $50,000</td><td>$15,000 – $28,000</td><td>$12,000 – $20,000</td></tr>
+        <tr><td>Bilateral Knee Replacement</td><td>$14,000 – $22,000</td><td>$55,000 – $85,000</td><td>$28,000 – $45,000</td><td>$18,000 – $32,000</td></tr>
+        <tr><td>Knee Arthroscopy</td><td>$2,000 – $4,000</td><td>$10,000 – $20,000</td><td>$5,000 – $10,000</td><td>$3,000 – $6,000</td></tr>
+      </tbody>
+    </table>
+    <p>Prices include the implant, surgery, hospital stay (5-7 days), and standard follow-up. Physical rehabilitation may be additional but is very affordable in China.</p>
+
+    <h2 id="implants">Implant Options</h2>
+    <p>Chinese orthopedic hospitals offer a full range of joint implant systems:</p>
+    <ul>
+      <li><strong>Premium imported</strong> — Zimmer Biomet, DePuy Synthes, Smith & Nephew, Stryker. These are the same implants used in the US, UK, and Australia. They account for the higher end of the price range but offer the longest track record and widest range of sizes.</li>
+      <li><strong>Quality domestic</strong> — Chinese manufacturers like AK Medical (listed on the Hong Kong Stock Exchange) produce joint implants that meet international standards at significantly lower prices. AK Medical's 3D-printed titanium implants have been used in over 100,000 procedures in China.</li>
+    </ul>
+    <p>Your surgeon will recommend the best implant based on your age, activity level, bone quality, and anatomy. Using an imported implant in China still costs far less than the same implant at a US hospital.</p>
+
+    <h2 id="hospitals">Top Orthopedic Hospitals</h2>
+    <ul>
+      <li><strong>Peking University People's Hospital (Beijing)</strong> — One of China's pioneering orthopedic centers. The joint surgery department performs thousands of replacements annually with excellent outcomes.</li>
+      <li><strong>Chinese PLA General Hospital / 301 Hospital (Beijing)</strong> — China's top military hospital with a nationally renowned orthopedic department. Known for complex revision joint surgery and sports medicine.</li>
+      <li><strong>West China Hospital (Chengdu)</strong> — Sichuan University's flagship hospital, consistently ranked among China's top 3 for orthopedics. High volume, experienced surgeons, and more affordable than Beijing/Shanghai hospitals.</li>
+      <li><strong>Shanghai Sixth People's Hospital</strong> — Shanghai Jiao Tong University affiliated, specializing in orthopedics and fracture surgery. International patient services available.</li>
+    </ul>
+
+    <h2 id="timeline">Treatment Timeline</h2>
+    <p>Plan for a 2-3 week trip for a single joint replacement:</p>
+    <ol>
+      <li><strong>Day 1-2: Pre-operative assessment</strong> — Physical exam, X-rays/MRI, blood tests, cardiac clearance, anesthesia consultation.</li>
+      <li><strong>Day 3: Surgery</strong> — The procedure takes 1-2 hours under spinal or general anesthesia. Modern techniques including minimally invasive approaches and robotic-assisted surgery are available at top centers.</li>
+      <li><strong>Day 4-5: Early mobilization</strong> — You'll be helped to stand and take first steps within 24-48 hours of surgery. Physical therapy begins immediately.</li>
+      <li><strong>Day 5-10: Hospital stay and rehab</strong> — Continued physical therapy, wound care, and pain management. Most patients can walk with assistance within 3-5 days.</li>
+      <li><strong>Day 10-14: Discharge and outpatient rehab</strong> — You're discharged to your hotel or a rehabilitation facility. Daily outpatient physical therapy sessions continue.</li>
+      <li><strong>Day 14-21: Follow-up and departure</strong> — Final X-rays, wound check, and clearance to fly. Your surgeon provides a detailed rehabilitation plan to continue at home.</li>
+    </ol>
+
+    <h2 id="get-started">Take the First Step Toward Pain-Free Living</h2>
+    <p>Don't let the cost of joint replacement keep you in pain. <a href="/get-quote">Send us your X-rays and medical records</a> for a free evaluation. We'll recommend the best hospital, surgeon, and implant option for your specific case, with a transparent all-inclusive price quote.</p>
+    `,
+    content_zh: '',
+    content_ru: '',
+  },
+  {
+    slug: 'traditional-chinese-medicine-foreigners-guide',
+    title_en: 'Traditional Chinese Medicine (TCM) in China: What Foreign Visitors Should Know (2026)',
+    title_zh: '',
+    title_ru: '',
+    excerpt_en: 'Experience authentic Traditional Chinese Medicine in China — acupuncture, herbal therapy, cupping, and more. A 2-4 week program costs $500–$3,000 compared to $2,000–$8,000 in the West.',
+    excerpt_zh: '',
+    excerpt_ru: '',
+    category: 'tcm',
+    date: '2026-02-22',
+    readingTime: 9,
+    metaDescription_en: 'Experience authentic Traditional Chinese Medicine in China. 2026 guide covering acupuncture, herbal medicine, cupping therapy costs, top TCM hospitals, treatment programs for foreigners, and what to expect.',
+    metaDescription_zh: '',
+    metaDescription_ru: '',
+    content_en: `
+    <h2 id="overview">Experience TCM Where It Was Born</h2>
+    <p>Traditional Chinese Medicine has been practiced continuously for over 2,000 years and remains a core part of China's healthcare system. Unlike in Western countries where TCM is often relegated to "alternative medicine" status, in China it operates alongside modern medicine in major hospitals, with dedicated TCM departments in most public hospitals and thousands of specialized TCM hospitals across the country.</p>
+    <p>For international visitors, experiencing TCM in China offers something impossible to replicate elsewhere: access to the world's most experienced practitioners, authentic herbal pharmacies with thousands of ingredients, and treatment protocols refined over millennia — at prices that make Western TCM clinics look extravagant.</p>
+
+    <h2 id="treatments">Common TCM Treatments</h2>
+
+    <h3>Acupuncture (针灸)</h3>
+    <p>The most internationally recognized TCM treatment. Ultra-thin needles are inserted at specific points along the body's meridians to restore energy flow (qi). In China, a single acupuncture session costs $10-30 at a TCM hospital, compared to $75-150 in the US or UK. Commonly used for chronic pain (back pain, migraines, arthritis), stress and anxiety, digestive disorders, insomnia, and post-stroke rehabilitation.</p>
+
+    <h3>Herbal Medicine (中药)</h3>
+    <p>Personalized herbal prescriptions are the backbone of TCM treatment. After a detailed consultation including pulse diagnosis and tongue examination, a TCM doctor prescribes a custom formula of dried herbs, which are decocted into tea or prepared as concentrated granules. A month's supply of herbal medicine in China typically costs $50-200, compared to $200-800 in Western countries.</p>
+
+    <h3>Cupping (拔罐)</h3>
+    <p>Glass or bamboo cups are placed on the skin with suction to promote blood circulation and relieve muscle tension. Made famous internationally when Olympic athletes were spotted with cupping marks, this therapy is widely used in China for pain management and respiratory conditions. Cost: $10-25 per session in China.</p>
+
+    <h3>Tuina Massage (推拿)</h3>
+    <p>Chinese therapeutic massage that combines acupressure, stretching, and joint manipulation. Unlike relaxation massage, tuina is a medical treatment targeting specific conditions — particularly musculoskeletal problems, sports injuries, and chronic pain. Cost: $15-40 per session in China.</p>
+
+    <h3>Moxibustion (艾灸)</h3>
+    <p>Dried mugwort herb is burned near or on specific acupuncture points to warm and stimulate circulation. Often combined with acupuncture for enhanced effects. Commonly used for digestive issues, menstrual problems, and conditions associated with "cold" in TCM diagnosis.</p>
+
+    <h2 id="programs">TCM Treatment Programs for Foreigners</h2>
+    <table>
+      <thead>
+        <tr><th>Program</th><th>Duration</th><th>🇨🇳 China Cost</th><th>🇺🇸 US Equivalent</th><th>Includes</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Introductory</td><td>1 week</td><td>$500 – $800</td><td>$2,000 – $3,000</td><td>Consultation, 5 acupuncture sessions, herbal prescription, cupping</td></tr>
+        <tr><td>Standard Treatment</td><td>2 weeks</td><td>$800 – $1,500</td><td>$3,000 – $5,000</td><td>Full TCM assessment, 10 acupuncture sessions, customized herbs, tuina, dietary therapy guidance</td></tr>
+        <tr><td>Comprehensive Wellness</td><td>4 weeks</td><td>$1,500 – $3,000</td><td>$5,000 – $8,000</td><td>Everything above + 20 acupuncture sessions, qi gong/tai chi instruction, ongoing herbal adjustments, lifestyle counseling</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="hospitals">Top TCM Hospitals for International Patients</h2>
+    <ul>
+      <li><strong>China Academy of Chinese Medical Sciences Hospital (Beijing)</strong> — The national center for TCM research and clinical practice. Some of China's most renowned TCM practitioners work here. International patient services available with English interpretation.</li>
+      <li><strong>Longhua Hospital, Shanghai University of TCM (Shanghai)</strong> — Shanghai's premier TCM hospital with strong departments in oncology (integrative TCM-Western medicine cancer treatment), orthopedics, and internal medicine.</li>
+      <li><strong>Guangdong Provincial Hospital of Chinese Medicine (Guangzhou)</strong> — One of the largest TCM hospitals in China with a reputation for combining traditional and modern approaches effectively.</li>
+      <li><strong>Chengdu University of TCM Affiliated Hospital (Chengdu)</strong> — Located in Sichuan, known for herbal medicine traditions and affordable pricing.</li>
+    </ul>
+
+    <h2 id="what-to-expect">What to Expect at Your First Visit</h2>
+    <p>A TCM consultation is very different from a Western doctor's visit:</p>
+    <ol>
+      <li><strong>Four diagnostic methods</strong> — The doctor will observe your complexion and tongue (inspection), listen to your voice and breathing (auscultation), ask detailed questions about your symptoms, sleep, diet, emotions, and bowel habits (inquiry), and feel your pulse at both wrists — not just heart rate, but analyzing 28 different pulse qualities (palpation).</li>
+      <li><strong>Diagnosis</strong> — Instead of naming a disease, the TCM doctor identifies a pattern of disharmony. For example, chronic headaches might be diagnosed as "liver qi stagnation with blood stasis" — a framework that guides the specific treatment combination you'll receive.</li>
+      <li><strong>Treatment plan</strong> — Based on your pattern diagnosis, the doctor prescribes a combination of treatments: acupuncture point selections, herbal formula, dietary recommendations, and lifestyle modifications. The plan is personalized to your specific constitution and condition.</li>
+      <li><strong>Treatment sessions</strong> — Acupuncture sessions typically last 30-45 minutes. You lie comfortably while needles do their work. Many patients find it deeply relaxing and even fall asleep.</li>
+    </ol>
+
+    <h2 id="conditions">Conditions Commonly Treated with TCM</h2>
+    <p>TCM is particularly well-suited for chronic conditions, functional disorders, and issues where Western medicine offers limited options:</p>
+    <ul>
+      <li>Chronic pain — lower back pain, neck pain, migraines, arthritis, fibromyalgia</li>
+      <li>Digestive disorders — IBS, acid reflux, chronic gastritis, poor appetite</li>
+      <li>Women's health — menstrual irregularities, menopause symptoms, fertility support</li>
+      <li>Mental health — anxiety, depression, insomnia, chronic stress</li>
+      <li>Respiratory — chronic cough, asthma, allergies, sinusitis</li>
+      <li>Rehabilitation — post-stroke recovery, sports injuries, post-surgical recovery</li>
+      <li>Cancer support — managing chemotherapy side effects, immune support, fatigue</li>
+      <li>Skin conditions — eczema, psoriasis, acne</li>
+    </ul>
+    <p>TCM works best as a complement to Western medicine, not a replacement. For serious conditions, we always recommend maintaining your Western medical treatment while adding TCM support.</p>
+
+    <h2 id="get-started">Experience Authentic TCM</h2>
+    <p>Whether you're seeking treatment for a specific condition or simply want to experience one of the world's oldest medical traditions in its birthplace, China offers an unparalleled TCM experience. <a href="/get-quote">Tell us about your health goals</a> and we'll recommend the best TCM hospital and program for your needs.</p>
+    `,
     content_zh: '',
     content_ru: '',
   },
