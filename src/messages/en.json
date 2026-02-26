@@ -207,7 +207,11 @@
     "avgRating": "Average Rating",
     "totalReviews": "Patient Reviews",
     "countries": "Countries",
-    "sampleDisclaimer": "These testimonials represent sample patient experiences. Individual results may vary. All reviews will be verified and sourced from real patients.",
+    "allCategories": "All",
+    "loadMore": "Load More Reviews",
+    "showing": "Showing",
+    "of": "of",
+    "reviews": "reviews",
     "ctaTitle": "Join Thousands of Satisfied Patients",
     "ctaDesc": "Start your medical journey with a free consultation. We'll match you with the best hospital for your needs."
   },

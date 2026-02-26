@@ -207,7 +207,11 @@
     "avgRating": "平均评分",
     "totalReviews": "患者评价",
     "countries": "来自国家",
-    "sampleDisclaimer": "这些评价代表样本患者体验，个人结果可能有所不同。所有评价将经过验证并来自真实患者。",
+    "allCategories": "全部",
+    "loadMore": "加载更多评价",
+    "showing": "显示",
+    "of": "/",
+    "reviews": "条评价",
     "ctaTitle": "加入数千名满意的患者",
     "ctaDesc": "通过免费咨询开始您的医疗之旅。我们将为您匹配最适合的医院。"
   },
