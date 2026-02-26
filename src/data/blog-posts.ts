@@ -30,568 +30,220 @@ export const blogCategories: BlogCategory[] = [
 
 export const blogPosts: BlogPost[] = [
   {
-    slug: 'dental-implants-china-complete-guide',
-    title_en: 'Dental Implants in China: A Complete Guide for International Patients',
-    title_zh: '中国种植牙：国际患者完整指南',
-    title_ru: 'Зубные импланты в Китае: полное руководство для иностранных пациентов',
-    excerpt_en: 'Everything you need to know about getting dental implants in China — from costs and hospitals to the treatment process and what to expect.',
-    excerpt_zh: '关于在中国做种植牙您需要了解的一切——从费用和医院到治疗流程和注意事项。',
-    excerpt_ru: 'Всё, что нужно знать о зубных имплантах в Китае — от стоимости и больниц до процесса лечения и чего ожидать.',
+    slug: 'dental-implants-china-cost-guide',
+    title_en: 'Dental Implants in China: Cost, Quality & Complete Guide for Foreign Patients (2026)',
+    title_zh: '',
+    title_ru: '',
+    excerpt_en: 'Single dental implants in China cost $800\u2013$3,000 compared to $3,500\u2013$5,000 in the US. Learn about top hospitals, implant brands, the treatment process, and how to plan your dental trip to China.',
+    excerpt_zh: '',
+    excerpt_ru: '',
     category: 'dental',
-    date: '2026-02-15',
-    readingTime: 8,
-    metaDescription_en: 'Complete guide to dental implants in China for international patients. Compare costs, top hospitals, treatment timeline, and tips for a successful dental trip.',
-    metaDescription_zh: '国际患者在中国做种植牙的完整指南。比较费用、顶级医院、治疗时间线和成功就医的建议。',
-    metaDescription_ru: 'Полное руководство по зубным имплантам в Китае для иностранных пациентов. Сравнение цен, лучшие больницы, сроки лечения и советы.',
+    date: '2026-02-26',
+    readingTime: 12,
+    metaDescription_en: 'Dental implants in China cost 50-70% less than the US, UK, or Australia. Complete 2026 guide covering prices, top hospitals, implant brands, treatment timeline, and how to get started as a foreign patient.',
+    metaDescription_zh: '',
+    metaDescription_ru: '',
     content_en: `
-<h2 id="why-china">Why Choose China for Dental Implants?</h2>
-<p>China has become one of the world's leading destinations for dental tourism, and for good reason. The country offers a compelling combination of advanced dental technology, highly trained specialists, and costs that are 60–80% lower than in the United States, Canada, or Western Europe.</p>
-<p>Chinese dental hospitals use the same implant brands trusted worldwide — Straumann, Nobel Biocare, and Osstem — but at a fraction of the Western price. Many top hospitals have dedicated international patient departments with English-speaking coordinators.</p>
+    <h2 id="overview">Why Are So Many Foreigners Getting Dental Implants in China?</h2>
+    <p>Every year, thousands of international patients travel to China for dental implant procedures. The reason is simple: China offers the same implant brands used worldwide \u2014 Straumann, Nobel Biocare, Osstem \u2014 at a fraction of the cost. A single dental implant that costs $3,500 to $5,000 in the United States can be done in China for $800 to $3,000, including the implant, abutment, and crown.</p>
+    <p>This isn\u2019t about cutting corners. China\u2019s dental industry has grown rapidly, with the market valued at over $600 million in 2024. The Chinese government\u2019s Volume-Based Procurement (VBP) policy has reduced implant prices by an average of 55%, and capped medical service fees at public hospitals to \u00A54,500 (approximately $620). This means even premium international implant brands are now significantly cheaper in China than anywhere else in the world.</p>
+    <p>Modern Chinese dental clinics use the same digital workflows \u2014 3D CT scanning, CAD/CAM design, guided surgery \u2014 that you\u2019d find in top clinics in New York or London. The difference is the price tag.</p>
 
-<h2 id="cost-comparison">Cost Comparison: China vs Other Countries</h2>
-<p>Here's what you can expect to pay for a single dental implant (including crown):</p>
-<ul>
-<li><strong>China:</strong> $1,500–$3,000</li>
-<li><strong>United States:</strong> $3,000–$6,000</li>
-<li><strong>South Korea:</strong> $1,800–$2,500</li>
-<li><strong>Thailand:</strong> $1,500–$2,200</li>
-</ul>
-<p>For full mouth implants (All-on-4 or All-on-6), the savings are even more dramatic — patients regularly save $20,000–$40,000 compared to US prices.</p>
+    <h2 id="cost-breakdown">How Much Do Dental Implants Cost in China?</h2>
+    <p>Here\u2019s a detailed breakdown of dental implant costs in China compared to other countries:</p>
 
-<h2 id="top-hospitals">Top Dental Hospitals in China</h2>
-<p>Several hospitals stand out for dental implant procedures:</p>
-<ul>
-<li><strong>Shanghai Ninth People's Hospital</strong> — One of Asia's largest dental centers with over 500 implant procedures per month</li>
-<li><strong>Peking University School of Stomatology</strong> — China's top-ranked dental institution with cutting-edge research facilities</li>
-<li><strong>West China Hospital of Stomatology</strong> — Affiliated with Sichuan University, known for complex implant cases</li>
-</ul>
+    <h3>Single Dental Implant</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>Cost Range (USD)</th>
+          <th>Savings vs USA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>\u{1F1E8}\u{1F1F3} China</td><td>$800 \u2013 $3,000</td><td>40% \u2013 77%</td></tr>
+        <tr><td>\u{1F1FA}\u{1F1F8} United States</td><td>$3,500 \u2013 $5,000</td><td>\u2014</td></tr>
+        <tr><td>\u{1F1EC}\u{1F1E7} United Kingdom</td><td>$2,500 \u2013 $4,500</td><td>\u2014</td></tr>
+        <tr><td>\u{1F1E6}\u{1F1FA} Australia</td><td>$3,000 \u2013 $5,500</td><td>\u2014</td></tr>
+        <tr><td>\u{1F1F0}\u{1F1F7} South Korea</td><td>$1,200 \u2013 $3,000</td><td>\u2014</td></tr>
+        <tr><td>\u{1F1F9}\u{1F1ED} Thailand</td><td>$1,000 \u2013 $3,000</td><td>\u2014</td></tr>
+      </tbody>
+    </table>
 
-<h2 id="treatment-process">The Treatment Process</h2>
-<p>A typical dental implant journey in China follows these steps:</p>
-<h3 id="initial-consultation">1. Initial Consultation (Remote)</h3>
-<p>Before traveling, you'll share your dental X-rays and medical history with the hospital. The doctor will create a preliminary treatment plan and cost estimate.</p>
-<h3 id="arrival-examination">2. Arrival & Examination</h3>
-<p>On arrival, you'll undergo a comprehensive dental examination including a 3D CT scan. The doctor will finalize your treatment plan.</p>
-<h3 id="implant-surgery">3. Implant Surgery</h3>
-<p>The implant post is placed into the jawbone under local anesthesia. The procedure typically takes 30–60 minutes per implant. Most patients experience minimal discomfort.</p>
-<h3 id="healing-period">4. Healing Period</h3>
-<p>The implant needs 3–6 months to integrate with the bone. You can return home during this period. Some hospitals offer same-day temporary crowns.</p>
-<h3 id="crown-placement">5. Crown Placement</h3>
-<p>On your second visit, the permanent crown is attached to the implant. This visit usually takes 3–5 days.</p>
+    <h3>Full Mouth Dental Implants (All-on-4 / All-on-6)</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>Cost Range (USD)</th>
+          <th>Savings vs USA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>\u{1F1E8}\u{1F1F3} China</td><td>$8,000 \u2013 $20,000</td><td>60% \u2013 83%</td></tr>
+        <tr><td>\u{1F1FA}\u{1F1F8} United States</td><td>$24,000 \u2013 $50,000</td><td>\u2014</td></tr>
+        <tr><td>\u{1F1EC}\u{1F1E7} United Kingdom</td><td>$18,000 \u2013 $40,000</td><td>\u2014</td></tr>
+        <tr><td>\u{1F1E6}\u{1F1FA} Australia</td><td>$20,000 \u2013 $45,000</td><td>\u2014</td></tr>
+      </tbody>
+    </table>
 
-<h2 id="tips">Tips for International Dental Patients</h2>
-<ul>
-<li>Request a detailed treatment plan and cost breakdown before traveling</li>
-<li>Ask about the implant brand and warranty — reputable hospitals use internationally certified brands</li>
-<li>Plan for two trips if getting traditional implants (surgery + crown placement)</li>
-<li>Many hospitals offer airport pickup and hotel recommendations near the hospital</li>
-<li>Keep all dental records and receipts for potential insurance reimbursement</li>
-</ul>
+    <h3>What\u2019s Included in the Price?</h3>
+    <p>A typical dental implant package in China includes:</p>
+    <ul>
+      <li><strong>Initial consultation and 3D CT scan</strong> \u2014 digital imaging to assess bone density and plan implant placement</li>
+      <li><strong>The implant fixture</strong> \u2014 the titanium screw placed into the jawbone</li>
+      <li><strong>The abutment</strong> \u2014 the connector piece between implant and crown</li>
+      <li><strong>The crown</strong> \u2014 the visible porcelain or zirconia tooth</li>
+      <li><strong>Follow-up visits</strong> \u2014 post-surgery checkups and adjustments</li>
+    </ul>
+    <p>Some clinics may charge separately for bone grafting ($500\u2013$1,500) if your jawbone isn\u2019t dense enough to support an implant. Always ask for an itemized quote before treatment.</p>
+
+    <h3>Why Are Prices So Low?</h3>
+    <p>Several factors contribute to China\u2019s lower dental costs:</p>
+    <ul>
+      <li><strong>Government Volume-Based Procurement</strong> \u2014 China\u2019s VBP policy negotiated bulk prices with implant manufacturers, reducing material costs by 55% on average</li>
+      <li><strong>Service fee caps</strong> \u2014 Public hospitals can charge a maximum of \u00A54,500 (~$620) for the medical service portion of implant procedures</li>
+      <li><strong>Lower labor costs</strong> \u2014 Highly trained dentists earn less than their Western counterparts, though their skill level is comparable</li>
+      <li><strong>Domestic competition</strong> \u2014 Chinese implant manufacturers like CDIC and AK are producing high-quality implants at lower price points, pushing down costs across the board</li>
+      <li><strong>Scale</strong> \u2014 China performs millions of dental implant procedures annually, creating economies of scale</li>
+    </ul>
+
+    <h2 id="implant-brands">What Implant Brands Are Used?</h2>
+    <p>Chinese dental clinics offer the same international implant brands used worldwide. The choice of brand affects both price and outcome:</p>
+
+    <h3>Premium International Brands</h3>
+    <ul>
+      <li><strong>Straumann (Switzerland)</strong> \u2014 The global market leader with over 60 years of clinical data. Known for the SLActive surface technology that promotes faster healing. In China: $1,500\u2013$3,000 per implant.</li>
+      <li><strong>Nobel Biocare (Sweden/USA)</strong> \u2014 Pioneer of modern dental implants. The NobelActive and NobelReplace lines are widely used. In China: $1,500\u2013$2,800 per implant.</li>
+      <li><strong>Dentsply Sirona (USA)</strong> \u2014 Offers the Ankylos and Astra Tech implant systems. In China: $1,200\u2013$2,500 per implant.</li>
+    </ul>
+
+    <h3>Value International Brands</h3>
+    <ul>
+      <li><strong>Osstem (South Korea)</strong> \u2014 The second-largest implant company in China by market share. Excellent quality at a lower price point. In China: $800\u2013$1,500 per implant.</li>
+      <li><strong>Dentium (South Korea)</strong> \u2014 Another popular Korean brand with strong clinical results. In China: $700\u2013$1,400 per implant.</li>
+    </ul>
+
+    <h3>Domestic Chinese Brands</h3>
+    <ul>
+      <li><strong>CDIC, AK, ZDI</strong> \u2014 Chinese manufacturers that meet NMPA (National Medical Products Administration) standards. Clinical success rates above 95%. In China: $500\u2013$1,000 per implant. These are best suited for patients prioritizing cost savings, though international brands offer longer track records.</li>
+    </ul>
+
+    <h2 id="top-hospitals">Best Hospitals for Dental Implants in China</h2>
+    <p>Here are some of the top dental facilities that serve international patients:</p>
+
+    <h3>Beijing</h3>
+    <ul>
+      <li><strong>Peking University School of Stomatology</strong> \u2014 One of China\u2019s top dental schools and hospitals. Extensive experience with complex implant cases. International patient services available.</li>
+      <li><strong>Beijing Stomatological Hospital</strong> \u2014 Capital Medical University affiliated. Advanced digital implant workflows.</li>
+    </ul>
+
+    <h3>Shanghai</h3>
+    <ul>
+      <li><strong>Shanghai Ninth People\u2019s Hospital</strong> \u2014 Part of Shanghai Jiao Tong University. Renowned for oral and maxillofacial surgery. Has an international medical center with English-speaking staff.</li>
+      <li><strong>Shanghai Stomatological Hospital</strong> \u2014 Fudan University affiliated. Strong in both implant surgery and prosthodontics.</li>
+    </ul>
+
+    <h3>Guangzhou & Shenzhen</h3>
+    <ul>
+      <li><strong>Guanghua School of Stomatology, Sun Yat-sen University</strong> \u2014 Top-ranked dental program in South China.</li>
+      <li><strong>Hong Kong University - Shenzhen Hospital</strong> \u2014 Combines Hong Kong medical standards with mainland pricing. Ideal for patients also visiting Hong Kong.</li>
+    </ul>
+
+    <h3>International Private Clinics</h3>
+    <p>Major cities also have private dental clinics specifically catering to foreigners, with English-speaking staff, Western-trained dentists, and international-standard facilities. These are typically 20-40% more expensive than public hospitals but still far cheaper than Western countries.</p>
+
+    <h2 id="treatment-process">The Treatment Process: Step by Step</h2>
+    <p>A dental implant procedure in China typically follows this timeline:</p>
+
+    <h3>Before You Arrive</h3>
+    <ol>
+      <li><strong>Initial Consultation (Remote)</strong> \u2014 Send your dental records, X-rays, or panoramic images to the hospital. You\u2019ll receive a preliminary treatment plan and cost estimate. This can be done via email or WhatsApp.</li>
+      <li><strong>Travel Planning</strong> \u2014 Most dental implant procedures require 2 visits to China, separated by 3-6 months. The first visit (5-7 days) is for implant placement. The second visit (3-5 days) is for crown placement after the implant has integrated with your jawbone.</li>
+    </ol>
+
+    <h3>First Visit: Implant Placement (5-7 days)</h3>
+    <ol>
+      <li><strong>Day 1: In-person consultation and 3D CT scan</strong> \u2014 The dentist examines your mouth, takes digital impressions, and finalizes the treatment plan.</li>
+      <li><strong>Day 2-3: Implant surgery</strong> \u2014 The titanium implant is placed into your jawbone under local anesthesia. The procedure takes 30-60 minutes per implant. You may receive a temporary crown.</li>
+      <li><strong>Day 4-7: Recovery and follow-up</strong> \u2014 Post-surgery checkups to ensure proper healing. You can explore the city during recovery \u2014 most patients feel comfortable eating soft foods within 24-48 hours.</li>
+    </ol>
+
+    <h3>Healing Period (3-6 months)</h3>
+    <p>You return home and wait for osseointegration \u2014 the process where the implant fuses with your jawbone. Your dentist in China will monitor progress remotely via photos and messages.</p>
+
+    <h3>Second Visit: Crown Placement (3-5 days)</h3>
+    <ol>
+      <li><strong>Day 1: Impression and crown design</strong> \u2014 Digital or physical impressions are taken to create your custom crown.</li>
+      <li><strong>Day 2-3: Crown fitting</strong> \u2014 Your permanent porcelain or zirconia crown is placed and adjusted for perfect bite alignment.</li>
+      <li><strong>Day 4-5: Final checkup</strong> \u2014 Confirmation that everything is perfect before you fly home.</li>
+    </ol>
+
+    <h3>Same-Day Implants</h3>
+    <p>Some clinics offer immediate-load implants where a temporary crown is placed on the same day as the implant surgery. This is suitable for certain patients and can reduce the number of trips needed. Ask your dentist if you\u2019re a candidate.</p>
+
+    <h2 id="quality-safety">Quality and Safety: What to Expect</h2>
+    <p>Concerns about quality are natural when considering dental treatment abroad. Here\u2019s what you should know:</p>
+
+    <h3>Regulatory Standards</h3>
+    <p>All dental implants used in China must be approved by the NMPA (National Medical Products Administration), China\u2019s equivalent of the FDA. International brands like Straumann and Nobel Biocare go through the same regulatory approval process in China as they do in the US or Europe.</p>
+
+    <h3>Dentist Qualifications</h3>
+    <p>Chinese dental surgeons undergo extensive training \u2014 typically 5 years of dental school plus 3+ years of specialized residency in implantology. Many senior implantologists have trained or studied abroad in the US, Germany, or Japan. China produces over 30,000 dental graduates annually, creating a large pool of highly skilled practitioners.</p>
+
+    <h3>Clinical Success Rates</h3>
+    <p>Reputable Chinese dental clinics report implant success rates above 95%, which is consistent with global benchmarks. Leading domestic manufacturers publish multi-year clinical studies showing success rates exceeding 97%.</p>
+
+    <h3>Technology</h3>
+    <p>Top Chinese dental hospitals use the latest technology including cone beam CT (CBCT) scanners for 3D imaging, CAD/CAM systems for custom crown design, 3D-printed surgical guides for precise implant placement, and digital intraoral scanners that eliminate messy physical impressions.</p>
+
+    <h2 id="practical-info">Practical Information for International Patients</h2>
+
+    <h3>Visa</h3>
+    <p>Most nationalities can enter China visa-free for up to 144 hours (6 days) under the transit visa exemption policy, which covers stays in major cities including Beijing, Shanghai, Guangzhou, and Shenzhen. For longer stays or multiple visits, you\u2019ll need a tourist visa (L visa) or medical visa (C visa). The tourist visa is sufficient for dental treatment.</p>
+
+    <h3>Language</h3>
+    <p>International departments at major hospitals have English-speaking coordinators. Private clinics catering to foreigners typically have bilingual staff. For public hospitals without international departments, we recommend arranging a medical interpreter. At MyChinaMed, we provide English-speaking coordinators for all our patients.</p>
+
+    <h3>Payment</h3>
+    <p>Most hospitals accept international credit cards (Visa, Mastercard). Some may prefer bank transfer or cash (Chinese Yuan). Payment is typically made directly to the hospital. At public hospitals, you\u2019ll often pay department by department \u2014 for example, separate payments for the CT scan, the surgery, and the crown.</p>
+
+    <h3>Accommodation</h3>
+    <p>Hotels near major hospitals range from $30-100/night for comfortable 3-4 star options. Many patients combine their dental trip with sightseeing \u2014 Beijing\u2019s Great Wall, Shanghai\u2019s Bund, or Guangzhou\u2019s food scene make excellent recovery activities.</p>
+
+    <h3>Travel Costs</h3>
+    <p>Even including flights and accommodation, most patients save 40-60% compared to getting the same procedure at home. For example, a full-mouth implant case that costs $40,000 in the US might cost $15,000 in China plus $2,000 for two round-trip flights and accommodation \u2014 a total savings of over $20,000.</p>
+
+    <h2 id="who-is-it-for">Is Dental Tourism to China Right for You?</h2>
+    <p>Dental implants in China are a great option if:</p>
+    <ul>
+      <li>You need multiple implants or full-mouth reconstruction \u2014 the savings are most significant for larger cases</li>
+      <li>You\u2019re comfortable traveling internationally and can make 2 trips (or plan an extended stay)</li>
+      <li>You\u2019re uninsured or your dental insurance doesn\u2019t cover implants adequately</li>
+      <li>You want premium implant brands (Straumann, Nobel Biocare) at a fraction of the Western price</li>
+      <li>You\u2019re already planning to visit China for tourism or business</li>
+    </ul>
+
+    <p>It may not be the best fit if:</p>
+    <ul>
+      <li>You need a single simple implant \u2014 the travel costs may offset savings for small procedures</li>
+      <li>You have complex medical conditions that require close long-term monitoring</li>
+      <li>You\u2019re unable to travel internationally</li>
+    </ul>
+
+    <h2 id="get-started">How to Get Started</h2>
+    <p>Getting dental implants in China through MyChinaMed is straightforward:</p>
+    <ol>
+      <li><strong>Send us your dental records</strong> \u2014 X-rays, panoramic images, or any existing treatment plans. Use our <a href="/get-quote">free quote form</a> or message us directly on WhatsApp.</li>
+      <li><strong>Receive your treatment plan</strong> \u2014 Within 48 hours, we\u2019ll send you a personalized treatment plan with hospital options, implant brand choices, and transparent pricing.</li>
+      <li><strong>Book your trip</strong> \u2014 Once you\u2019re ready, we help coordinate your appointment, travel logistics, and accommodation.</li>
+      <li><strong>Get your implants</strong> \u2014 Arrive in China, complete your treatment, and enjoy significant savings while exploring one of the world\u2019s most fascinating countries.</li>
+    </ol>
+    <p>Ready to save thousands on dental implants? <a href="/get-quote">Get your free personalized quote today</a> or chat with us on WhatsApp for immediate assistance.</p>
 `,
-    content_zh: `
-<h2 id="why-china">为什么选择在中国做种植牙？</h2>
-<p>中国已成为世界领先的牙科旅游目的地之一，原因是多方面的。中国提供了先进的牙科技术、训练有素的专家以及比美国、加拿大或西欧低60-80%的费用的完美组合。</p>
-<p>中国的牙科医院使用全球信赖的同品牌种植体——士卓曼（Straumann）、诺贝尔（Nobel Biocare）和奥齿泰（Osstem）——但价格仅为西方的一小部分。许多顶级医院设有专门的国际患者部，配备英语协调员。</p>
-
-<h2 id="cost-comparison">费用对比：中国 vs 其他国家</h2>
-<p>单颗种植牙（含牙冠）的预期费用如下：</p>
-<ul>
-<li><strong>中国：</strong>$1,500–$3,000</li>
-<li><strong>美国：</strong>$3,000–$6,000</li>
-<li><strong>韩国：</strong>$1,800–$2,500</li>
-<li><strong>泰国：</strong>$1,500–$2,200</li>
-</ul>
-<p>对于全口种植（All-on-4或All-on-6），节省更加显著——与美国价格相比，患者通常可节省$20,000–$40,000。</p>
-
-<h2 id="top-hospitals">中国顶级牙科医院</h2>
-<p>以下医院在种植牙手术方面尤为突出：</p>
-<ul>
-<li><strong>上海第九人民医院</strong> — 亚洲最大的牙科中心之一，每月完成超过500例种植手术</li>
-<li><strong>北京大学口腔医院</strong> — 中国排名第一的牙科机构，拥有尖端研究设施</li>
-<li><strong>华西口腔医院</strong> — 四川大学附属，以复杂种植病例著称</li>
-</ul>
-
-<h2 id="treatment-process">治疗流程</h2>
-<p>在中国做种植牙的典型流程如下：</p>
-<h3 id="initial-consultation">1. 初步咨询（远程）</h3>
-<p>出行前，您将与医院分享牙科X光片和病史。医生会制定初步治疗方案和费用估算。</p>
-<h3 id="arrival-examination">2. 到达与检查</h3>
-<p>到达后，您将接受全面的牙科检查，包括3D CT扫描。医生将最终确定治疗方案。</p>
-<h3 id="implant-surgery">3. 种植手术</h3>
-<p>在局部麻醉下将种植体植入颌骨。每颗种植体手术通常需要30-60分钟。大多数患者感觉不适感很小。</p>
-<h3 id="healing-period">4. 愈合期</h3>
-<p>种植体需要3-6个月与骨骼融合。此期间您可以回国。一些医院提供当天临时牙冠。</p>
-<h3 id="crown-placement">5. 安装牙冠</h3>
-<p>第二次来访时，将永久牙冠安装到种植体上。此次就诊通常需要3-5天。</p>
-
-<h2 id="tips">国际牙科患者建议</h2>
-<ul>
-<li>出行前要求详细的治疗方案和费用明细</li>
-<li>询问种植体品牌和保修——正规医院使用国际认证品牌</li>
-<li>如果做传统种植牙，计划两次行程（手术+安装牙冠）</li>
-<li>许多医院提供机场接送和医院附近的酒店推荐</li>
-<li>保留所有牙科记录和收据，以备保险报销</li>
-</ul>
-`,
-    content_ru: `
-<h2 id="why-china">Почему стоит выбрать Китай для зубных имплантов?</h2>
-<p>Китай стал одним из ведущих направлений стоматологического туризма в мире, и на то есть веские причины. Страна предлагает передовые стоматологические технологии, высококвалифицированных специалистов и цены на 60–80% ниже, чем в США, Канаде или Западной Европе.</p>
-<p>Китайские стоматологические больницы используют те же бренды имплантов, которым доверяют во всём мире — Straumann, Nobel Biocare и Osstem — но по значительно более низкой цене. Многие ведущие больницы имеют специализированные международные отделения с англоязычными координаторами.</p>
-
-<h2 id="cost-comparison">Сравнение цен: Китай vs другие страны</h2>
-<p>Ориентировочная стоимость одного зубного импланта (с коронкой):</p>
-<ul>
-<li><strong>Китай:</strong> $1 500–$3 000</li>
-<li><strong>США:</strong> $3 000–$6 000</li>
-<li><strong>Южная Корея:</strong> $1 800–$2 500</li>
-<li><strong>Таиланд:</strong> $1 500–$2 200</li>
-</ul>
-<p>При полной имплантации (All-on-4 или All-on-6) экономия ещё значительнее — пациенты обычно экономят $20 000–$40 000 по сравнению с ценами в США.</p>
-
-<h2 id="top-hospitals">Лучшие стоматологические больницы Китая</h2>
-<p>Несколько больниц особенно выделяются в области имплантации:</p>
-<ul>
-<li><strong>Шанхайская девятая народная больница</strong> — Один из крупнейших стоматологических центров Азии, более 500 имплантаций в месяц</li>
-<li><strong>Стоматологическая школа Пекинского университета</strong> — Ведущее стоматологическое учреждение Китая с передовыми исследовательскими лабораториями</li>
-<li><strong>Западнокитайская стоматологическая больница</strong> — При Сычуаньском университете, известна сложными случаями имплантации</li>
-</ul>
-
-<h2 id="treatment-process">Процесс лечения</h2>
-<p>Типичный путь пациента при имплантации в Китае:</p>
-<h3 id="initial-consultation">1. Первичная консультация (удалённо)</h3>
-<p>Перед поездкой вы поделитесь рентгеновскими снимками и медицинской историей с больницей. Врач составит предварительный план лечения и смету.</p>
-<h3 id="arrival-examination">2. Прибытие и обследование</h3>
-<p>По прибытии вас ждёт комплексное стоматологическое обследование, включая 3D КТ-сканирование. Врач утвердит окончательный план лечения.</p>
-<h3 id="implant-surgery">3. Операция по имплантации</h3>
-<p>Имплант устанавливается в челюстную кость под местной анестезией. Процедура обычно занимает 30–60 минут на один имплант. Большинство пациентов испытывают минимальный дискомфорт.</p>
-<h3 id="healing-period">4. Период заживления</h3>
-<p>Импланту требуется 3–6 месяцев для интеграции с костью. В этот период можно вернуться домой. Некоторые больницы предлагают временные коронки в день операции.</p>
-<h3 id="crown-placement">5. Установка коронки</h3>
-<p>Во время второго визита постоянная коронка крепится к импланту. Этот визит обычно занимает 3–5 дней.</p>
-
-<h2 id="tips">Советы для иностранных пациентов</h2>
-<ul>
-<li>Запросите подробный план лечения и разбивку расходов перед поездкой</li>
-<li>Уточните марку импланта и гарантию — авторитетные больницы используют международно сертифицированные бренды</li>
-<li>Планируйте две поездки при традиционной имплантации (операция + установка коронки)</li>
-<li>Многие больницы предлагают трансфер из аэропорта и рекомендации по отелям рядом с больницей</li>
-<li>Сохраняйте все медицинские записи и чеки для возможного страхового возмещения</li>
-</ul>
-`,
-  },
-  {
-    slug: 'lasik-eye-surgery-china-what-to-expect',
-    title_en: 'LASIK Eye Surgery in China: What to Expect and How Much You Can Save',
-    title_zh: 'LASIK近视手术在中国：期望什么以及能节省多少',
-    title_ru: 'LASIK в Китае: чего ожидать и сколько можно сэкономить',
-    excerpt_en: 'China is home to some of the world\'s busiest LASIK centers. Learn about the procedure, costs, and why thousands of international patients choose China for vision correction.',
-    excerpt_zh: '中国拥有世界上最繁忙的LASIK中心。了解手术流程、费用，以及为什么数千名国际患者选择在中国矫正视力。',
-    excerpt_ru: 'В Китае расположены одни из самых загруженных LASIK-центров мира. Узнайте о процедуре, стоимости и почему тысячи иностранных пациентов выбирают Китай для коррекции зрения.',
-    category: 'eye',
-    date: '2026-02-10',
-    readingTime: 6,
-    metaDescription_en: 'Guide to LASIK eye surgery in China. Compare costs, learn about top eye hospitals, and understand the procedure timeline for international patients.',
-    metaDescription_zh: '中国LASIK近视手术指南。比较费用，了解顶级眼科医院，以及国际患者的手术时间线。',
-    metaDescription_ru: 'Руководство по LASIK-хирургии в Китае. Сравнение цен, лучшие глазные больницы и сроки процедуры для иностранных пациентов.',
-    content_en: `
-<h2 id="overview">LASIK in China: An Overview</h2>
-<p>China performs more LASIK procedures annually than any other country in the world. With hospitals like Beijing Tongren Hospital and Zhongshan Ophthalmic Center handling thousands of cases per year, Chinese eye surgeons have unmatched experience.</p>
-<p>The latest technologies — including femtosecond lasers, SMILE (Small Incision Lenticule Extraction), and ICL implants — are all widely available in major Chinese cities.</p>
-
-<h2 id="cost-savings">Cost Savings</h2>
-<p>LASIK pricing in China is significantly lower than Western countries:</p>
-<ul>
-<li><strong>China:</strong> $1,200–$2,500 (both eyes)</li>
-<li><strong>United States:</strong> $4,000–$6,000</li>
-<li><strong>United Kingdom:</strong> $3,500–$5,000</li>
-<li><strong>South Korea:</strong> $1,800–$2,500</li>
-</ul>
-<p>Even including flights and accommodation, most patients save 40–60% compared to having the procedure done at home.</p>
-
-<h2 id="procedure-types">Available Procedures</h2>
-<h3 id="traditional-lasik">Traditional LASIK</h3>
-<p>The most common procedure, using a microkeratome or femtosecond laser to create a corneal flap. Recovery is fast — most patients see clearly within 24 hours.</p>
-<h3 id="smile">SMILE</h3>
-<p>A newer, minimally invasive technique that corrects vision through a tiny incision. Less dry eye symptoms and faster recovery than traditional LASIK.</p>
-<h3 id="icl">ICL (Implantable Collamer Lens)</h3>
-<p>For patients with high myopia or thin corneas who aren't candidates for LASIK. A biocompatible lens is implanted inside the eye. Reversible and excellent visual quality.</p>
-
-<h2 id="top-eye-hospitals">Top Eye Hospitals</h2>
-<ul>
-<li><strong>Beijing Tongren Hospital</strong> — China's most famous eye hospital, performing 10,000+ refractive surgeries annually</li>
-<li><strong>Zhongshan Ophthalmic Center (Guangzhou)</strong> — Sun Yat-sen University affiliated, a leader in ophthalmology research</li>
-<li><strong>Eye & ENT Hospital of Fudan University (Shanghai)</strong> — One of Asia's top eye centers with cutting-edge equipment</li>
-</ul>
-
-<h2 id="timeline">Treatment Timeline</h2>
-<p>One of the best things about LASIK is how quick the entire process is:</p>
-<ul>
-<li><strong>Day 1:</strong> Comprehensive eye exam and consultation</li>
-<li><strong>Day 2:</strong> LASIK procedure (15–20 minutes)</li>
-<li><strong>Day 3:</strong> Post-operative check-up</li>
-<li><strong>Day 4–5:</strong> Final check and clearance to fly home</li>
-</ul>
-<p>Most international patients need only 4–5 days in China for the entire trip.</p>
-
-<h2 id="preparation">How to Prepare</h2>
-<ul>
-<li>Stop wearing contact lenses at least 2 weeks before the procedure (4 weeks for hard lenses)</li>
-<li>Bring your most recent eye prescription and any previous exam records</li>
-<li>Arrange for someone to accompany you on the day of surgery</li>
-<li>Pack sunglasses — your eyes will be sensitive to light for a few days</li>
-</ul>
-`,
-    content_zh: `
-<h2 id="overview">中国LASIK手术概述</h2>
-<p>中国每年进行的LASIK手术数量居世界第一。北京同仁医院、中山眼科中心等医院每年处理数千例病例，中国眼科医生拥有无与伦比的经验。</p>
-<p>最新技术——包括飞秒激光、SMILE（全飞秒）和ICL人工晶体植入——在中国各大城市均已广泛应用。</p>
-
-<h2 id="cost-savings">费用节省</h2>
-<p>中国LASIK手术价格远低于西方国家：</p>
-<ul>
-<li><strong>中国：</strong>$1,200–$2,500（双眼）</li>
-<li><strong>美国：</strong>$4,000–$6,000</li>
-<li><strong>英国：</strong>$3,500–$5,000</li>
-<li><strong>韩国：</strong>$1,800–$2,500</li>
-</ul>
-<p>即使算上机票和住宿，大多数患者与在本国手术相比仍可节省40-60%。</p>
-
-<h2 id="procedure-types">可选手术类型</h2>
-<h3 id="traditional-lasik">传统LASIK</h3>
-<p>最常见的手术方式，使用角膜微切刀或飞秒激光制作角膜瓣。恢复快——大多数患者在24小时内即可看清。</p>
-<h3 id="smile">全飞秒SMILE</h3>
-<p>一种较新的微创技术，通过微小切口矫正视力。比传统LASIK干眼症状更少，恢复更快。</p>
-<h3 id="icl">ICL（可植入式接触镜）</h3>
-<p>适用于高度近视或角膜较薄、不适合做LASIK的患者。将生物相容性镜片植入眼内。可逆且视觉质量优异。</p>
-
-<h2 id="top-eye-hospitals">顶级眼科医院</h2>
-<ul>
-<li><strong>北京同仁医院</strong> — 中国最著名的眼科医院，每年进行10,000+例屈光手术</li>
-<li><strong>中山眼科中心（广州）</strong> — 中山大学附属，眼科研究领导者</li>
-<li><strong>复旦大学附属眼耳鼻喉科医院（上海）</strong> — 亚洲顶级眼科中心之一，设备先进</li>
-</ul>
-
-<h2 id="timeline">治疗时间线</h2>
-<p>LASIK最大的优势之一就是整个过程非常快：</p>
-<ul>
-<li><strong>第1天：</strong>全面眼科检查和咨询</li>
-<li><strong>第2天：</strong>LASIK手术（15-20分钟）</li>
-<li><strong>第3天：</strong>术后复查</li>
-<li><strong>第4-5天：</strong>最终检查，可以乘飞机回家</li>
-</ul>
-<p>大多数国际患者整个行程只需在中国停留4-5天。</p>
-
-<h2 id="preparation">如何准备</h2>
-<ul>
-<li>手术前至少2周停止戴隐形眼镜（硬性镜片需4周）</li>
-<li>携带最近的验光处方和以前的检查记录</li>
-<li>安排手术当天有人陪同</li>
-<li>带上太阳镜——术后几天眼睛会对光线敏感</li>
-</ul>
-`,
-    content_ru: `
-<h2 id="overview">LASIK в Китае: обзор</h2>
-<p>Китай проводит больше LASIK-операций в год, чем любая другая страна мира. Такие больницы, как Пекинская больница Тунжэнь и Офтальмологический центр Чжуншань, выполняют тысячи операций ежегодно, что даёт китайским хирургам непревзойдённый опыт.</p>
-<p>Новейшие технологии — фемтосекундные лазеры, SMILE и ICL-импланты — широко доступны во всех крупных городах Китая.</p>
-
-<h2 id="cost-savings">Экономия</h2>
-<p>Стоимость LASIK в Китае значительно ниже, чем в западных странах:</p>
-<ul>
-<li><strong>Китай:</strong> $1 200–$2 500 (оба глаза)</li>
-<li><strong>США:</strong> $4 000–$6 000</li>
-<li><strong>Великобритания:</strong> $3 500–$5 000</li>
-<li><strong>Южная Корея:</strong> $1 800–$2 500</li>
-</ul>
-<p>Даже с учётом перелёта и проживания большинство пациентов экономят 40–60% по сравнению с операцией дома.</p>
-
-<h2 id="procedure-types">Доступные процедуры</h2>
-<h3 id="traditional-lasik">Традиционный LASIK</h3>
-<p>Самая распространённая процедура с использованием микрокератома или фемтосекундного лазера для создания роговичного лоскута. Быстрое восстановление — большинство пациентов видят чётко в течение 24 часов.</p>
-<h3 id="smile">SMILE</h3>
-<p>Более новая, минимально инвазивная техника коррекции зрения через крошечный разрез. Меньше симптомов сухого глаза и быстрое восстановление.</p>
-<h3 id="icl">ICL (имплантируемая линза)</h3>
-<p>Для пациентов с высокой миопией или тонкой роговицей. Биосовместимая линза имплантируется внутрь глаза. Обратимая процедура с отличным качеством зрения.</p>
-
-<h2 id="top-eye-hospitals">Лучшие глазные больницы</h2>
-<ul>
-<li><strong>Пекинская больница Тунжэнь</strong> — Самая известная глазная больница Китая, 10 000+ рефракционных операций в год</li>
-<li><strong>Офтальмологический центр Чжуншань (Гуанчжоу)</strong> — При университете Сунь Ятсена, лидер офтальмологических исследований</li>
-<li><strong>Глазная больница Фуданьского университета (Шанхай)</strong> — Один из лучших центров Азии с современным оборудованием</li>
-</ul>
-
-<h2 id="timeline">Сроки лечения</h2>
-<p>Одно из главных преимуществ LASIK — скорость всего процесса:</p>
-<ul>
-<li><strong>День 1:</strong> Комплексное обследование глаз и консультация</li>
-<li><strong>День 2:</strong> Процедура LASIK (15–20 минут)</li>
-<li><strong>День 3:</strong> Послеоперационный осмотр</li>
-<li><strong>День 4–5:</strong> Финальный осмотр и разрешение на перелёт</li>
-</ul>
-<p>Большинству иностранных пациентов для всей поездки достаточно 4–5 дней в Китае.</p>
-
-<h2 id="preparation">Как подготовиться</h2>
-<ul>
-<li>Прекратите носить контактные линзы минимум за 2 недели до процедуры (4 недели для жёстких линз)</li>
-<li>Возьмите последний рецепт на очки и результаты предыдущих обследований</li>
-<li>Организуйте сопровождение в день операции</li>
-<li>Возьмите солнечные очки — глаза будут чувствительны к свету несколько дней</li>
-</ul>
-`,
-  },
-  {
-    slug: 'medical-tourism-china-first-time-guide',
-    title_en: 'Your First Medical Trip to China: Everything You Need to Know',
-    title_zh: '首次来中国就医：您需要了解的一切',
-    title_ru: 'Первая медицинская поездка в Китай: всё, что нужно знать',
-    excerpt_en: 'Planning your first medical trip to China? This comprehensive guide covers visas, travel tips, hospital etiquette, and how to make the most of your medical journey.',
-    excerpt_zh: '计划首次来中国就医？本综合指南涵盖签证、出行建议、医院礼仪以及如何充分利用您的医疗之旅。',
-    excerpt_ru: 'Планируете первую медицинскую поездку в Китай? Это руководство охватывает визы, советы по путешествию, больничный этикет и как максимально использовать поездку.',
-    category: 'general',
-    date: '2026-02-05',
-    readingTime: 10,
-    metaDescription_en: 'First-time medical tourism guide to China. Visa requirements, travel tips, hospital etiquette, costs, and step-by-step planning for international patients.',
-    metaDescription_zh: '首次来中国医疗旅游指南。签证要求、出行建议、医院礼仪、费用和国际患者的逐步规划。',
-    metaDescription_ru: 'Руководство по медицинскому туризму в Китае для новичков. Визовые требования, советы по поездке, больничный этикет и пошаговое планирование.',
-    content_en: `
-<h2 id="why-medical-tourism">Why Medical Tourism in China?</h2>
-<p>China's healthcare system has undergone a remarkable transformation in the past decade. Today, the country boasts over 2,000 Grade III-A hospitals (the highest classification), many with JCI accreditation and dedicated international patient departments.</p>
-<p>The combination of world-class medical expertise, cutting-edge technology, and significantly lower costs makes China an increasingly attractive destination for medical tourists from around the world.</p>
-
-<h2 id="visa-requirements">Visa Requirements</h2>
-<p>Most international patients will need a tourist visa (L visa) or a medical visa (M visa) to enter China:</p>
-<ul>
-<li><strong>Tourist Visa (L):</strong> Suitable for short medical trips (up to 30 days). The easiest to obtain — just need a valid passport, photo, and completed application form.</li>
-<li><strong>Medical Visa (M):</strong> For longer treatments. Requires an invitation letter from the hospital. Your MyChinaMed coordinator can help arrange this.</li>
-</ul>
-<p>Processing typically takes 4–7 business days. We recommend applying at least 3 weeks before your planned travel date.</p>
-
-<h2 id="planning-your-trip">Planning Your Trip</h2>
-<h3 id="choosing-a-city">Choosing a City</h3>
-<p>China's top medical cities each have their strengths:</p>
-<ul>
-<li><strong>Beijing:</strong> Best for cardiac surgery, neurology, and general surgery. Home to Peking Union and Fuwai hospitals.</li>
-<li><strong>Shanghai:</strong> Excellent for dental, ophthalmology, and cosmetic procedures. Most international-friendly city.</li>
-<li><strong>Guangzhou:</strong> Strong in oncology and traditional Chinese medicine. Close to Hong Kong for easy transit.</li>
-<li><strong>Chengdu:</strong> Known for dental and orthopedic care at West China Hospital. Lower living costs.</li>
-</ul>
-
-<h3 id="what-to-pack">What to Pack</h3>
-<ul>
-<li>All medical records, test results, and imaging (digital copies preferred)</li>
-<li>Current medications with original labels</li>
-<li>Travel insurance documents</li>
-<li>Comfortable clothing for hospital visits</li>
-<li>A power adapter (China uses Type A and Type I plugs)</li>
-</ul>
-
-<h2 id="at-the-hospital">At the Hospital</h2>
-<h3 id="international-departments">International Patient Departments</h3>
-<p>Most major hospitals have dedicated international departments that offer:</p>
-<ul>
-<li>English/multilingual staff and translators</li>
-<li>VIP wards with private rooms</li>
-<li>Expedited scheduling (shorter wait times)</li>
-<li>Assistance with insurance documentation</li>
-</ul>
-
-<h3 id="hospital-etiquette">Hospital Etiquette</h3>
-<ul>
-<li>Arrive 30 minutes early for appointments</li>
-<li>Bring a companion if possible — they can help navigate and communicate</li>
-<li>Chinese hospitals can be crowded; the international department bypasses most queues</li>
-<li>Payment is typically upfront; keep all receipts for insurance claims</li>
-</ul>
-
-<h2 id="costs-and-payment">Costs and Payment</h2>
-<p>Chinese hospitals typically accept:</p>
-<ul>
-<li><strong>Cash (CNY):</strong> Widely accepted. ATMs are plentiful. Exchange at the airport or banks.</li>
-<li><strong>Credit Cards:</strong> Visa and Mastercard accepted at international departments</li>
-<li><strong>WeChat Pay / Alipay:</strong> You can set these up with a foreign passport — very convenient for daily expenses</li>
-<li><strong>Wire Transfer:</strong> For larger procedures, hospitals may accept international wire transfers</li>
-</ul>
-<p>Most procedures are 50–80% cheaper than in Western countries, even before considering the lower cost of living during your stay.</p>
-
-<h2 id="after-treatment">After Treatment</h2>
-<ul>
-<li>Attend all follow-up appointments before leaving China</li>
-<li>Get a complete medical report in English (request this before discharge)</li>
-<li>Ask your doctor about post-treatment care instructions and medications</li>
-<li>Your MyChinaMed coordinator can arrange remote follow-up consultations with your doctor after you return home</li>
-</ul>
-
-<h2 id="mychinamed-support">How MyChinaMed Helps</h2>
-<p>As your medical tourism coordinator, we handle the logistics so you can focus on your health:</p>
-<ul>
-<li>Free hospital and doctor matching based on your condition</li>
-<li>Appointment scheduling and treatment planning</li>
-<li>Visa invitation letters (for M visa)</li>
-<li>Airport pickup and hotel recommendations</li>
-<li>Translation and interpretation during consultations</li>
-<li>Post-treatment follow-up coordination</li>
-</ul>
-<p>Our service is 100% free for patients — we work directly with hospitals.</p>
-`,
-    content_zh: `
-<h2 id="why-medical-tourism">为什么选择中国医疗旅游？</h2>
-<p>过去十年，中国的医疗体系经历了显著转型。如今，中国拥有超过2,000家三甲医院（最高等级），其中许多获得了JCI认证，并设有专门的国际患者部。</p>
-<p>世界级的医疗专业技术、尖端技术和显著更低的费用的结合，使中国成为越来越受世界各地医疗游客欢迎的目的地。</p>
-
-<h2 id="visa-requirements">签证要求</h2>
-<p>大多数国际患者需要旅游签证（L签证）或医疗签证（M签证）才能入境中国：</p>
-<ul>
-<li><strong>旅游签证（L）：</strong>适用于短期医疗行程（最长30天）。最容易获得——只需有效护照、照片和填写完整的申请表。</li>
-<li><strong>医疗签证（M）：</strong>适用于较长的治疗。需要医院的邀请函。您的MyChinaMed协调员可以帮助安排。</li>
-</ul>
-<p>办理通常需要4-7个工作日。建议至少在计划出行日期前3周申请。</p>
-
-<h2 id="planning-your-trip">规划行程</h2>
-<h3 id="choosing-a-city">选择城市</h3>
-<p>中国顶级医疗城市各有优势：</p>
-<ul>
-<li><strong>北京：</strong>心脏外科、神经科和普通外科最佳选择。协和医院和阜外医院所在地。</li>
-<li><strong>上海：</strong>牙科、眼科和整形手术优秀。对外国人最友好的城市。</li>
-<li><strong>广州：</strong>肿瘤学和中医方面实力强劲。靠近香港，交通便利。</li>
-<li><strong>成都：</strong>华西医院的牙科和骨科闻名。生活费用较低。</li>
-</ul>
-
-<h3 id="what-to-pack">打包清单</h3>
-<ul>
-<li>所有病历、检查结果和影像资料（优先使用电子版）</li>
-<li>目前服用的药物，保留原始标签</li>
-<li>旅行保险文件</li>
-<li>去医院时穿的舒适衣物</li>
-<li>电源转换器（中国使用A型和I型插头）</li>
-</ul>
-
-<h2 id="at-the-hospital">在医院</h2>
-<h3 id="international-departments">国际患者部</h3>
-<p>大多数大型医院设有专门的国际部，提供：</p>
-<ul>
-<li>英语/多语言工作人员和翻译</li>
-<li>VIP病房，配有独立房间</li>
-<li>加急安排（缩短等待时间）</li>
-<li>保险文件协助</li>
-</ul>
-
-<h3 id="hospital-etiquette">医院礼仪</h3>
-<ul>
-<li>预约前30分钟到达</li>
-<li>尽可能带一个同伴——可以帮助导航和沟通</li>
-<li>中国医院可能很拥挤；国际部可以绕过大部分排队</li>
-<li>通常需要预付费用；保留所有收据以备保险理赔</li>
-</ul>
-
-<h2 id="costs-and-payment">费用和支付</h2>
-<p>中国医院通常接受以下支付方式：</p>
-<ul>
-<li><strong>现金（人民币）：</strong>广泛接受。ATM很多。可在机场或银行兑换。</li>
-<li><strong>信用卡：</strong>国际部接受Visa和Mastercard</li>
-<li><strong>微信支付/支付宝：</strong>可以用外国护照开通——日常消费非常方便</li>
-<li><strong>电汇：</strong>对于较大的手术，医院可能接受国际电汇</li>
-</ul>
-<p>大多数手术比西方国家便宜50-80%，更不用说住宿期间较低的生活费用。</p>
-
-<h2 id="after-treatment">治疗后</h2>
-<ul>
-<li>离开中国前参加所有随访预约</li>
-<li>获取完整的英文医疗报告（出院前申请）</li>
-<li>向医生询问治疗后护理说明和用药</li>
-<li>您的MyChinaMed协调员可以在您回国后安排与医生的远程随访</li>
-</ul>
-
-<h2 id="mychinamed-support">MyChinaMed如何帮助您</h2>
-<p>作为您的医疗旅游协调员，我们处理后勤事务，让您专注于健康：</p>
-<ul>
-<li>根据您的病情免费匹配医院和医生</li>
-<li>预约安排和治疗规划</li>
-<li>签证邀请函（M签证）</li>
-<li>机场接送和酒店推荐</li>
-<li>就诊时的翻译和口译</li>
-<li>治疗后随访协调</li>
-</ul>
-<p>我们对患者的服务100%免费——我们直接与医院合作。</p>
-`,
-    content_ru: `
-<h2 id="why-medical-tourism">Почему медицинский туризм в Китае?</h2>
-<p>За последнее десятилетие система здравоохранения Китая претерпела значительную трансформацию. Сегодня в стране более 2 000 больниц категории III-A (высшая классификация), многие из которых имеют аккредитацию JCI и специализированные международные отделения.</p>
-<p>Сочетание медицинских специалистов мирового уровня, передовых технологий и значительно более низких цен делает Китай всё более привлекательным направлением для медицинских туристов со всего мира.</p>
-
-<h2 id="visa-requirements">Визовые требования</h2>
-<p>Большинству иностранных пациентов потребуется туристическая виза (L) или медицинская виза (M):</p>
-<ul>
-<li><strong>Туристическая виза (L):</strong> Подходит для коротких медицинских поездок (до 30 дней). Проще всего получить — нужны действующий паспорт, фото и заполненная анкета.</li>
-<li><strong>Медицинская виза (M):</strong> Для длительного лечения. Требуется приглашение от больницы. Ваш координатор MyChinaMed поможет его организовать.</li>
-</ul>
-<p>Оформление обычно занимает 4–7 рабочих дней. Рекомендуем подавать заявку минимум за 3 недели до планируемой поездки.</p>
-
-<h2 id="planning-your-trip">Планирование поездки</h2>
-<h3 id="choosing-a-city">Выбор города</h3>
-<p>Каждый из ведущих медицинских городов Китая имеет свои сильные стороны:</p>
-<ul>
-<li><strong>Пекин:</strong> Лучший для кардиохирургии, неврологии и общей хирургии. Здесь расположены больницы Пекин Юнион и Фувай.</li>
-<li><strong>Шанхай:</strong> Отличный для стоматологии, офтальмологии и косметических процедур. Самый удобный город для иностранцев.</li>
-<li><strong>Гуанчжоу:</strong> Силён в онкологии и традиционной китайской медицине. Близко к Гонконгу для удобного транзита.</li>
-<li><strong>Чэнду:</strong> Известен стоматологией и ортопедией в Западнокитайской больнице. Более низкая стоимость проживания.</li>
-</ul>
-
-<h3 id="what-to-pack">Что взять с собой</h3>
-<ul>
-<li>Все медицинские записи, результаты анализов и снимки (предпочтительно в электронном виде)</li>
-<li>Текущие лекарства с оригинальными этикетками</li>
-<li>Документы туристической страховки</li>
-<li>Удобную одежду для посещения больницы</li>
-<li>Переходник для розеток (в Китае используются типы A и I)</li>
-</ul>
-
-<h2 id="at-the-hospital">В больнице</h2>
-<h3 id="international-departments">Международные отделения</h3>
-<p>Большинство крупных больниц имеют специализированные международные отделения:</p>
-<ul>
-<li>Англоязычный/многоязычный персонал и переводчики</li>
-<li>VIP-палаты с отдельными комнатами</li>
-<li>Ускоренная запись (меньше ожидания)</li>
-<li>Помощь с документами для страховки</li>
-</ul>
-
-<h3 id="hospital-etiquette">Больничный этикет</h3>
-<ul>
-<li>Приходите за 30 минут до назначенного времени</li>
-<li>По возможности возьмите сопровождающего</li>
-<li>Китайские больницы могут быть многолюдными; международное отделение обходит большинство очередей</li>
-<li>Оплата обычно производится заранее; сохраняйте все чеки для страховых выплат</li>
-</ul>
-
-<h2 id="costs-and-payment">Расходы и оплата</h2>
-<p>Китайские больницы обычно принимают:</p>
-<ul>
-<li><strong>Наличные (юани):</strong> Принимаются повсеместно. Банкоматов много. Обмен в аэропорту или банках.</li>
-<li><strong>Кредитные карты:</strong> Visa и Mastercard принимаются в международных отделениях</li>
-<li><strong>WeChat Pay / Alipay:</strong> Можно привязать к иностранному паспорту — очень удобно для ежедневных расходов</li>
-<li><strong>Банковский перевод:</strong> Для крупных процедур больницы могут принять международный перевод</li>
-</ul>
-<p>Большинство процедур на 50–80% дешевле, чем в западных странах, не считая более низкой стоимости проживания.</p>
-
-<h2 id="after-treatment">После лечения</h2>
-<ul>
-<li>Посетите все контрольные осмотры перед отъездом из Китая</li>
-<li>Получите полный медицинский отчёт на английском языке (запросите перед выпиской)</li>
-<li>Уточните у врача рекомендации по уходу и назначенные лекарства</li>
-<li>Ваш координатор MyChinaMed организует дистанционные консультации с врачом после возвращения домой</li>
-</ul>
-
-<h2 id="mychinamed-support">Как MyChinaMed помогает</h2>
-<p>Как ваш координатор медицинского туризма, мы берём на себя логистику, чтобы вы могли сосредоточиться на здоровье:</p>
-<ul>
-<li>Бесплатный подбор больницы и врача по вашему диагнозу</li>
-<li>Запись на приём и планирование лечения</li>
-<li>Приглашение для медицинской визы (M виза)</li>
-<li>Трансфер из аэропорта и рекомендации по отелям</li>
-<li>Перевод и сопровождение на консультациях</li>
-<li>Координация послеоперационного наблюдения</li>
-</ul>
-<p>Наш сервис для пациентов полностью бесплатный — мы работаем напрямую с больницами.</p>
-`,
+    content_zh: '',
+    content_ru: '',
   },
 ]
 
