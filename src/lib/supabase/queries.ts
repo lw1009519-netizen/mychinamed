@@ -56,6 +56,41 @@ export async function getHospitalBySlug(slug: string) {
   return data
 }
 
+export async function getFeaturedHospitals(limit = 6) {
+  const supabase = getClient()
+  const { data, error } = await supabase
+    .from('hospitals')
+    .select(`
+      id, name_en, name_zh, slug, grade,
+      jci_accredited, international_dept, bed_count,
+      description_en, description_zh, featured,
+      city_id,
+      cities ( id, name_en, name_zh, slug )
+    `)
+    .eq('status', 'active')
+    .eq('featured', true)
+    .order('name_en')
+    .limit(limit)
+
+  if (error) throw error
+  return data ?? []
+}
+
+export async function getPopularTreatments(limit = 8) {
+  const supabase = getClient()
+  const { data, error } = await supabase
+    .from('treatments')
+    .select('*')
+    .eq('status', 'active')
+    .eq('popular', true)
+    .order('category')
+    .order('name_en')
+    .limit(limit)
+
+  if (error) throw error
+  return data ?? []
+}
+
 // ---- Cities ----
 
 export async function getCities() {
