@@ -5,6 +5,7 @@
     "doctors": "医生",
     "pricing": "价格对比",
     "reviews": "患者评价",
+    "blog": "博客",
     "getQuote": "免费获取报价"
   },
   "hero": {
@@ -209,6 +210,26 @@
     "sampleDisclaimer": "这些评价代表样本患者体验，个人结果可能有所不同。所有评价将经过验证并来自真实患者。",
     "ctaTitle": "加入数千名满意的患者",
     "ctaDesc": "通过免费咨询开始您的医疗之旅。我们将为您匹配最适合的医院。"
+  },
+  "blogPage": {
+    "metaTitle": "医疗旅游博客 — 指南与建议 | MyChinaMed",
+    "metaDescription": "关于中国医疗旅游的专业文章。治疗指南、医院评测、费用比较以及种植牙、激光手术、骨科等患者建议。",
+    "title": "医疗旅游博客",
+    "subtitle": "专业指南、治疗见解和实用建议，助您的中国医疗之旅一路顺畅。",
+    "readMore": "阅读全文",
+    "allCategories": "全部",
+    "minRead": "分钟阅读",
+    "publishedOn": "发布于",
+    "by": "作者",
+    "author": "MyChinaMed 团队",
+    "authorBio": "我们的医疗旅游专家和医疗专业人员团队提供可靠、最新的信息，帮助国际患者做出关于在中国就医的明智决定。",
+    "tableOfContents": "目录",
+    "breadcrumbHome": "首页",
+    "breadcrumbBlog": "博客",
+    "ctaTitle": "准备好开始您的医疗之旅了吗？",
+    "ctaDesc": "免费获取中国顶级医院的个性化报价。我们的服务100%免费。",
+    "relatedPosts": "相关文章",
+    "noPosts": "该分类暂无文章。"
   },
   "common": {
     "learnMore": "了解更多",

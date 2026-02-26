@@ -5,6 +5,7 @@
     "doctors": "Doctors",
     "pricing": "Pricing",
     "reviews": "Reviews",
+    "blog": "Blog",
     "getQuote": "Get Free Quote"
   },
   "hero": {
@@ -209,6 +210,26 @@
     "sampleDisclaimer": "These testimonials represent sample patient experiences. Individual results may vary. All reviews will be verified and sourced from real patients.",
     "ctaTitle": "Join Thousands of Satisfied Patients",
     "ctaDesc": "Start your medical journey with a free consultation. We'll match you with the best hospital for your needs."
+  },
+  "blogPage": {
+    "metaTitle": "Medical Tourism Blog — Tips & Guides | MyChinaMed",
+    "metaDescription": "Expert articles on medical tourism in China. Treatment guides, hospital reviews, cost comparisons, and patient tips for dental, LASIK, orthopedic, and more.",
+    "title": "Medical Tourism Blog",
+    "subtitle": "Expert guides, treatment insights, and patient tips for your medical journey to China.",
+    "readMore": "Read More",
+    "allCategories": "All",
+    "minRead": "min read",
+    "publishedOn": "Published on",
+    "by": "By",
+    "author": "MyChinaMed Team",
+    "authorBio": "Our team of medical tourism experts and healthcare professionals provide reliable, up-to-date information to help international patients make informed decisions about medical care in China.",
+    "tableOfContents": "Table of Contents",
+    "breadcrumbHome": "Home",
+    "breadcrumbBlog": "Blog",
+    "ctaTitle": "Ready to Start Your Medical Journey?",
+    "ctaDesc": "Get a free, personalized quote from top Chinese hospitals. Our service is 100% free.",
+    "relatedPosts": "Related Articles",
+    "noPosts": "No articles found in this category."
   },
   "common": {
     "learnMore": "Learn More",

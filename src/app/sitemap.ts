@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next'
 import { getHospitals, getTreatments } from '@/lib/supabase/queries'
+import { getBlogPosts } from '@/data/blog-posts'
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://mychinamed.com'
 const locales = ['en', 'zh', 'ru']
@@ -10,7 +11,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     getTreatments(),
   ])
 
-  const staticPages = ['', '/hospitals', '/treatments', '/pricing', '/reviews', '/get-quote']
+  const staticPages = ['', '/hospitals', '/treatments', '/pricing', '/reviews', '/blog', '/get-quote']
 
   const staticEntries = staticPages.flatMap((page) =>
     locales.map((locale) => ({
@@ -39,5 +40,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }))
   )
 
-  return [...staticEntries, ...hospitalEntries, ...treatmentEntries]
+  const blogPostEntries = getBlogPosts().flatMap((post) =>
+    locales.map((locale) => ({
+      url: `${SITE_URL}/${locale}/blog/${post.slug}`,
+      lastModified: new Date(post.date),
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
+    }))
+  )
+
+  return [...staticEntries, ...hospitalEntries, ...treatmentEntries, ...blogPostEntries]
 }

@@ -31,6 +31,7 @@ export default function Navbar() {
     { href: '/doctors' as const, label: t('doctors') },
     { href: '/pricing' as const, label: t('pricing') },
     { href: '/reviews' as const, label: t('reviews') },
+    { href: '/blog' as const, label: t('blog') },
   ]
 
   const currentLocale = pathname.split('/')[1] || 'en'
