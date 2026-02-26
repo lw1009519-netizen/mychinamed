@@ -3,6 +3,7 @@ import { Link } from '@/i18n/routing'
 import {
   Clock, Bed, DollarSign, ChevronRight, Star,
 } from 'lucide-react'
+import QuoteForm from '@/components/sections/QuoteForm'
 
 export const metadata = {
   title: 'Medical Treatments in China — MyChinaMed',
@@ -165,7 +166,7 @@ export default async function TreatmentsPage() {
 
                       {/* CTA */}
                       <Link
-                        href="/get-quote"
+                        href={`/get-quote?treatment=${t.category}` as '/get-quote'}
                         className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-brand transition-colors hover:text-brand-dark"
                       >
                         Get Free Quote <ChevronRight className="h-4 w-4" />
@@ -177,6 +178,11 @@ export default async function TreatmentsPage() {
             )
           })}
         </div>
+      </section>
+
+      {/* Quote Form */}
+      <section className="bg-bg-soft px-4 py-12 md:px-8 md:py-16 lg:px-16">
+        <QuoteForm sourcePage="/treatments" embedded />
       </section>
     </div>
   )

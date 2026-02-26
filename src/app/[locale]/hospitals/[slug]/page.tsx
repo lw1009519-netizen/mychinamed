@@ -5,6 +5,7 @@ import {
   Building2, Globe, ShieldCheck, Bed, Users,
   MapPin, ExternalLink, ArrowLeft, Check, Plane,
 } from 'lucide-react'
+import QuoteForm from '@/components/sections/QuoteForm'
 
 interface HospitalDetailPageProps {
   params: { locale: string; slug: string }
@@ -247,6 +248,11 @@ export default async function HospitalDetailPage({ params }: HospitalDetailPageP
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Quote Form */}
+      <section className="bg-bg-soft px-4 py-12 md:px-8 md:py-16 lg:px-16">
+        <QuoteForm sourcePage={`/hospitals/${params.slug}`} embedded />
       </section>
     </div>
   )
