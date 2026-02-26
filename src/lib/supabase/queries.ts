@@ -126,6 +126,20 @@ export async function getTreatments(category?: string) {
   return data ?? []
 }
 
+export async function getSiteStats() {
+  const supabase = getClient()
+  const [h, c, t] = await Promise.all([
+    supabase.from('hospitals').select('*', { count: 'exact', head: true }).eq('status', 'active'),
+    supabase.from('cities').select('*', { count: 'exact', head: true }).eq('status', 'active'),
+    supabase.from('treatments').select('*', { count: 'exact', head: true }).eq('status', 'active'),
+  ])
+  return {
+    hospitalCount: h.count ?? 0,
+    cityCount: c.count ?? 0,
+    treatmentCount: t.count ?? 0,
+  }
+}
+
 export async function getTreatmentBySlug(slug: string) {
   const supabase = getClient()
   const { data, error } = await supabase

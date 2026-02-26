@@ -4,8 +4,19 @@ import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/routing'
 import { Search } from 'lucide-react'
 
-export default function Hero() {
+interface HeroProps {
+  stats?: {
+    hospitalCount: number
+    cityCount: number
+    treatmentCount: number
+  }
+}
+
+export default function Hero({ stats }: HeroProps) {
   const t = useTranslations('hero')
+
+  const hospitalLabel = stats ? `${stats.hospitalCount}+ Hospitals` : t('stats.hospitals')
+  const treatmentLabel = stats ? `${stats.treatmentCount}+ Treatments` : '18+ Treatments'
 
   return (
     <section className="bg-gradient-to-br from-brand-light to-white pt-16 md:pt-20">
@@ -25,7 +36,9 @@ export default function Hero() {
             <div className="flex flex-wrap items-center gap-4 text-sm font-medium text-text-muted">
               <span>{t('stats.patients')}</span>
               <span className="text-slate-300">|</span>
-              <span>{t('stats.hospitals')}</span>
+              <span>{hospitalLabel}</span>
+              <span className="text-slate-300">|</span>
+              <span>{treatmentLabel}</span>
               <span className="text-slate-300">|</span>
               <span>{t('stats.free')}</span>
             </div>

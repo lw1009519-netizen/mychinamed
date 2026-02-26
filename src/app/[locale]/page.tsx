@@ -9,17 +9,18 @@ import Reviews from '@/components/sections/Reviews'
 import HowItWorks from '@/components/sections/HowItWorks'
 import PatientManagerCTA from '@/components/sections/PatientManagerCTA'
 import QuoteForm from '@/components/sections/QuoteForm'
-import { getFeaturedHospitals, getPopularTreatments } from '@/lib/supabase/queries'
+import { getFeaturedHospitals, getPopularTreatments, getSiteStats } from '@/lib/supabase/queries'
 
 export default async function HomePage({ params }: { params: { locale: string } }) {
-  const [hospitals, treatments] = await Promise.all([
+  const [hospitals, treatments, stats] = await Promise.all([
     getFeaturedHospitals(6),
     getPopularTreatments(8),
+    getSiteStats(),
   ])
 
   return (
     <>
-      <Hero />
+      <Hero stats={stats} />
       <TrustBar />
       <Specialties />
       <FeaturedHospitals hospitals={hospitals} locale={params.locale} />

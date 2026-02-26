@@ -179,6 +179,37 @@
     "hospitalStay": "Hospital Stay",
     "getQuote": "Get Free Quote"
   },
+  "pricingPage": {
+    "metaTitle": "Treatment Pricing — Compare Costs Across 4 Countries | MyChinaMed",
+    "metaDescription": "Compare medical treatment prices in China, USA, South Korea, and Thailand. Save up to 70% on dental implants, LASIK, IVF, cardiac surgery, and more.",
+    "title": "Compare Treatment Costs Worldwide",
+    "subtitle": "See how much you can save by choosing top-tier hospitals in China — prices sourced from real hospital data.",
+    "treatment": "Treatment",
+    "china": "China",
+    "usa": "USA",
+    "korea": "S. Korea",
+    "thailand": "Thailand",
+    "savings": "Savings vs USA",
+    "disclaimer": "Prices are estimates based on average costs in USD. Actual prices may vary depending on hospital, doctor, complexity, and individual case. China prices are sourced from partner hospitals.",
+    "whyTitle": "Why Choose China for Medical Treatment?",
+    "why1": "World-class hospitals with JCI accreditation and Grade III-A certification — the same standards as top Western medical centers, at a fraction of the cost.",
+    "why2": "Cutting-edge technology including robotic surgery, CAR-T cell therapy, and AI-assisted diagnostics — often available faster than in Western countries with shorter wait times.",
+    "why3": "Dedicated international patient departments with multilingual coordinators, airport pickup, hotel arrangement, and 24/7 support throughout your stay.",
+    "ctaTitle": "Ready to Save on Your Treatment?",
+    "ctaDesc": "Get a personalized quote with exact pricing from our partner hospitals. Our service is 100% free."
+  },
+  "reviewsPage": {
+    "metaTitle": "Patient Reviews & Testimonials | MyChinaMed",
+    "metaDescription": "Read real patient stories from around the world. See how international patients saved money and received world-class care at Chinese hospitals.",
+    "title": "What Our Patients Say",
+    "subtitle": "Real stories from international patients who chose China for their medical treatment.",
+    "avgRating": "Average Rating",
+    "totalReviews": "Patient Reviews",
+    "countries": "Countries",
+    "sampleDisclaimer": "These testimonials represent sample patient experiences. Individual results may vary. All reviews will be verified and sourced from real patients.",
+    "ctaTitle": "Join Thousands of Satisfied Patients",
+    "ctaDesc": "Start your medical journey with a free consultation. We'll match you with the best hospital for your needs."
+  },
   "common": {
     "learnMore": "Learn More",
     "viewAll": "View All",
